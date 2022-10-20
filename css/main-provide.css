@@ -1,0 +1,139 @@
+/*.intro-header h1 {
+	color: #000;	
+
+}
+
+.subheading {
+	color: #000;	
+	font-weight: 600;
+}*/
+
+a {
+  text-decoration: underline;
+  color: ;
+}
+
+
+.site-heading {
+	padding-bottom: 75px !important;
+	padding-top: 75px !important;
+	/*: 75px 75px 50px 50px !important;*/
+
+}
+
+.page-heading {
+	padding-bottom: 75px !important;
+	padding-top: 75px !important;
+	/*: 75px 75px 50px 50px !important;*/
+
+}
+
+.alternate
+{
+
+background: #E0E0E0; 
+
+}
+
+.links_in_li a {
+  text-decoration: underline;
+}
+
+.links_in_li {
+  text-align: left;  
+}
+
+
+.navbar-custom{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*
+ * BUTTON
+ */
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #5C6;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    /*background-color: #fed136;*/
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #182;
+    color: #fff;
+    background-color: rgba(85, 204, 102, 0.4)
+}
+
+
+.btn-xl-dark {
+    padding: 20px 40px;
+    border-color: #5C6;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    /*background-color: #fed136;*/
+}
+
+.btn-xl-dark:hover,
+.btn-xl-dark:focus,
+.btn-xl-dark:active,
+.btn-xl-dark.active,
+.open .dropdown-toggle.btn-xl-dark {
+    border-color: #182;
+    color: #182;
+    background-color: rgba(10, 204, 102, 0.4)
+}
+
+
+/*
+ * ALERT
+ */
+
+
+.alert>p
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 17px;
+}
+
+
+.post-content {
+  color: #000;
+  font-size: 18px;
+  /*font-style: italic;*/
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 3mm;
+}
+
+
+.post-preview > .post-meta {
+  color: #777777;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;   
+}
+
+.no-margin
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
