@@ -1,10 +1,10 @@
 /*.intro-header h1 {
-	color: #000;	
+	color: #000;
 
 }
 
 .subheading {
-	color: #000;	
+	color: #000;
 	font-weight: 600;
 }*/
 
@@ -31,10 +31,22 @@
   color:#cc0000;
 }
 
+.blink {
+  animation: blinker 1.5s linear infinite;
+  color: #1c87c9;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 .alternate
 {
 
-background: #E0E0E0; 
+background: #E0E0E0;
 
 }
 
@@ -43,7 +55,7 @@ background: #E0E0E0;
 }
 
 .links_in_li {
-  text-align: left;  
+  text-align: left;
 }
 
 
@@ -134,7 +146,7 @@ background: #E0E0E0;
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
-  margin-bottom: 0;   
+  margin-bottom: 0;
 }
 
 .alert >.post-meta {
@@ -142,7 +154,7 @@ background: #E0E0E0;
   font-size: 18px !important;
   font-style: italic !important;
   margin-top: 0 !important;
-  margin-bottom: 0 !important;   
+  margin-bottom: 0 !important;
 }
 
 .no-margin
