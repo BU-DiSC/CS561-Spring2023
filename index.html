@@ -258,9 +258,9 @@
                 <li> <a href="./projects/Proj1.pdf" target="_blank">Project 1</a> is released. <font color="red">Due date: Feb 19th</font></li>
 
                 <li> <a href="https://tinyurl.com/S22-CS561-presentations" target="_blank">Register</a> for presentation by <font color="red">Feb 4th</font> </li> -->
-                <!-- <li>Important information about the class available on <a href="https://piazza.com/class/laladejvu8y768/post/6" target="_blank">Piazza</a>.</li> --> 
+                <!-- <li>Important information about the class available on <a href="https://piazza.com/class/laladejvu8y768/post/6" target="_blank">Piazza</a>.</li> -->
                 <li> <span class="blink">New</span> <a href="./projects/CS561-S23-Proj0-Zonemaps.pdf" target="_blank">Project 0</a> is released. <font color="red">Due date: Feb 2nd</font></li>
-                <li> The schedule is populated with the papers to discuss. </li> 
+                <li> The schedule is populated with the papers to discuss. </li>
                 <li> Updated <a href="documents/CS561-Spring2023-syllabus.pdf" target="_blank">syllabus</a> is now online (subject to changes). </li>
                 <li> Class starts on 1/19 - stay tuned for updates.</li>
             </ul>
@@ -404,7 +404,7 @@
                     <h4>Readings</h4>
                     <ul class="mylist">
                     <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class5.pdf" >Slides</a> </li> -->
-                    <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?doid=1376616.1376712">Column-Stores vs. Row-Stores: How Different Are They Really?</a>, SIGMOD 2008 (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>) </li>
+                    <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?doid=1376616.1376712">Column-Stores vs. Row-Stores: How Different Are They Really?</a>, SIGMOD 2008 </li>
                     <li>(B) <a href="https://dl.acm.org/citation.cfm?id=1083658">C-Store: A Column-oriented DBMS</a>, VLDB 2005</li>
                     </ul>
                     </p>
@@ -472,6 +472,8 @@
                         <h4>Readings</h4>
                          <ul class="mylist">
                             <li><strong>(P)</strong> <a href="http://vldb.org/pvldb/vol15/p1605-huynh.pdf">ENDURE: A Robust Tuning Paradigm for LSM Trees</a>, VLDB 2022 [<a href="https://www.youtube.com/watch?v=RsatTbzOZuI">conf. present. video</a>]</li>
+                            <li>(B) <a href="https://dl.acm.org/doi/pdf/10.1145/2723372.2749454"> CliffGuard: A Principled Framework for Finding Robust Database Designs</a>, SIGMOD 2015 </li>
+<li>(B) <a href="https://pubsonline.informs.org/doi/epdf/10.1287/mnsc.1120.1641"> Robust Solutions of Optimization ProblemsAffected by Uncertain Probabilities</a>, Management Science 2012 </li>
                             </ul>
                          </p>
 
@@ -486,6 +488,10 @@
                         <h4>Readings</h4>
                          <ul class="mylist">
                            <li><strong>(P)</strong> <a href="http://cs-people.bu.edu/mathan/publications/adms22-mun.pdf">LSM-Tree Under (Memory) Pressure</a>, ADMS 2022 [<a href="https://www.youtube.com/watch?v=DtvKxqxNiEY">conf. present. video</a>]</li>
+                           <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">
+                             SHaMBa achieves better lookup performance when large BFs do not fit in memory. Can we do something similar if we have large index blocks? Give a concrete example to explain why it could work or not.
+                           </em> </li>
+
                            <li>(B) <a href="https://dl.acm.org/doi/abs/10.1145/3465998.3466002"> Reducing bloom filter cpu overhead in lsm-trees on modern storage devices, DaMon 2021 </li>
                            <li>(B) <a href="https://www.usenix.org/conference/hotstorage18/presentation/zhang"> ElasticBF: Fine-grained and Elastic Bloom
 Filter Towards Efficient Read for LSM-treebased KV Stores</a>, HotStorage 2018</li>
@@ -701,6 +707,7 @@ Filter Towards Efficient Read for LSM-treebased KV Stores</a>, HotStorage 2018</
                        <h4>Readings</h4>
                         <ul class="mylist">
                           <li><strong>(P)</strong> <a href="https://cs-people.bu.edu/mathan/publications/icde23-papon.pdf">ACEing the Bufferpool Management Paradigm for Modern Storage Devices</a>, ICDE 2023</li>
+                          <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text"> TBD</em> </li>
                            <li> (B) <a href="http://cs-people.bu.edu/mathan/publications/damon21-papon.pdf">A Parametric I/O Model for Modern Storage Devices</a>, DaMon 2021 [<a href="https://www.youtube.com/watch?v=wBhxFxVbh3I" target="_blank">conf. present. video</a>, <a href="http://disc-projects.bu.edu/parametric-io-model/">DEMO</a>]</li>
                            </ul>
                         </p>
@@ -719,7 +726,7 @@ Filter Towards Efficient Read for LSM-treebased KV Stores</a>, HotStorage 2018</
                     <h4>Readings</h4>
                     <ul class="mylist">
                         <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/CAS-CS561-Class15-student-presentation.pdf" >Discussion Slides</a> </li> -->
-                        <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?id=3196898">FASTER: A Concurrent Key-Value Store with In-Place Updates</a>, SIGMOD 2018 [<a href="https://www.youtube.com/watch?v=68YBpitMrMI" target="_blank">conf. present. video</a>]</li>
+                        <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?id=3196898">FASTER: A Concurrent Key-Value Store with In-Place Updates</a>, SIGMOD 2018 [<a href="https://www.youtube.com/watch?v=68YBpitMrMI" target="_blank">conf. present. video</a>] (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>)</li>
                     </ul>
                     </p>
 
@@ -795,7 +802,7 @@ Filter Towards Efficient Read for LSM-treebased KV Stores</a>, HotStorage 2018</
                        <h4>Readings</h4>
                       <ul class="mylist">
                            <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/CAS-CS561-Class16-student-presentation.pdf" >Discussion Slides</a> </li> -->
-                           <li><strong>(P)</strong> <a href="https://www.vldb.org/pvldb/vol15/p1591-burckhardt.pdf">Netherite: Efficient Execution of Serverless Workflows</a>, VLDB 2022 (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>)</li>
+                           <li><strong>(P)</strong> <a href="https://www.vldb.org/pvldb/vol15/p1591-burckhardt.pdf">Netherite: Efficient Execution of Serverless Workflows</a>, VLDB 2022</li>
                           </ul>
                        </p>
 
@@ -822,6 +829,7 @@ Filter Towards Efficient Read for LSM-treebased KV Stores</a>, HotStorage 2018</
                       <ul class="mylist">
                            <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/CAS-CS561-Class16-student-presentation.pdf" >Discussion Slides</a> </li> -->
                            <li><strong>(P)</strong> <a href="https://chatterjeesubarna.github.io/files/cosine.pdf">Cosine: A Cloud-Cost Optimized Self-Designing Key-Value Storage Engine</a>, VLDB 2022 </li>
+                           <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text"> TBD</em> </li>
                            <li>(B) <a href="https://www.cidrdb.org/cidr2019/papers/p143-idreos-cidr19.pdf">Design Continuums and the Path Toward Self-Designing Key-Value Stores that Know and Learn</a>, CIDR 2019 </li>
                            <li>(B) <a href="https://dl.acm.org/doi/10.1145/3183713.3199671">The Data Calculator: Data Structure Design and Cost Synthesis From First Principles, and Learned Cost Models</a>, SIGMOD 2018 </li>
 
