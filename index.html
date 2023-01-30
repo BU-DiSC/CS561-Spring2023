@@ -392,44 +392,6 @@
 
 
                     <h2 class="text-center">A: Storage Layouts</h2>
-
-
-                    <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Row-Stores vs. Column-Stores
-                    </h3>
-                    <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                    <p class="post-content">
-                    <strong>Concepts</strong>: column-stores, row-stores, vertical partitioning, index-only plans, materialized views, tuple reconstruction, late/early materialization,
-                    block iteration, vectorized execution (block iteration), compression (run length encoding), hash joins, index joins, sort-merge joins, invisible joins, star schema
-                    <h4>Readings</h4>
-                    <ul class="mylist">
-                    <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class5.pdf" >Slides</a> </li> -->
-                    <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?doid=1376616.1376712">Column-Stores vs. Row-Stores: How Different Are They Really?</a>, SIGMOD 2008 </li>
-                    <li>(B) <a href="https://dl.acm.org/citation.cfm?id=1083658">C-Store: A Column-oriented DBMS</a>, VLDB 2005</li>
-                    </ul>
-                    </p>
-
-                    <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Adaptive &amp; Hybrid Layouts <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
-                    </h3>
-                    <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                    <p class="post-content">
-                    <strong>Concepts</strong>: on-line transaction processing (OLTP), on-line analytical processing (OLAP), n-ary storage model (NSM), decomposition storage model (DSM),
-                    partition attributes across (PAX), flexible storage model (FSM), projectivity, selectivity, concurrency control, multi-version concurrency control (MVCC),
-                    two-phase locking (2PL)
-                    <h4>Readings</h4>
-                    <ul class="mylist">
-                        <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/CAS-CS561-Class6-student-presentation.pdf">Discussion Slides</a> </li> -->
-                        <li> <strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?id=2915231">Bridging the Archipelago between Row-Stores and Column-Stores for Hybrid Workloads</a>, SIGMOD 2016 (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>) </li>
-                        <li> (B) <a href="https://dl.acm.org/citation.cfm?id=2610502">H2O: A Hands-free Adaptive Store</a>, SIGMOD 2014</li>
-                    </ul>
-                    </p>
-
-
-                    <h2 class="text-center">B: Modern Storage Engines</h2>
-
                     <h3 class="post-subtitle">
                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
                         Class <script type="text/javascript">document.write(cday+1)</script>: Log-Structured Merge (LSM) Trees
@@ -445,7 +407,6 @@
                      </ul>
                      </p>
 
-
                      <h3 class="post-subtitle">
                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
                         Class <script type="text/javascript">document.write(cday+1)</script>: Deletes in LSMs
@@ -459,6 +420,47 @@
                          <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/abs/10.1145/3318464.3389757">Lethe: A Tunable Delete-Aware LSM Engine</a>, SIGMOD 2020</li>
                         <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">To ensure bounded delete persistent latency, Lethe aggressively performs compactions. How does these eager compactions affect write amplification of the overall system?</em> </li>
                         </ul>
+                     </p>
+
+
+
+
+                    <h2 class="text-center">B: Modern Storage Engines</h2>
+
+
+                     <h3 class="post-subtitle">
+                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
+                         Class <script type="text/javascript">document.write(cday+1)</script>: Row-Stores vs. Column-Stores
+                     </h3>
+                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
+                     <p class="post-content">
+                     <strong>Concepts</strong>: column-stores, row-stores, vertical partitioning, index-only plans, materialized views, tuple reconstruction, late/early materialization,
+                     block iteration, vectorized execution (block iteration), compression (run length encoding), hash joins, index joins, sort-merge joins, invisible joins, star schema
+                     <h4>Readings</h4>
+                     <ul class="mylist">
+                     <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class5.pdf" >Slides</a> </li> -->
+                     <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?doid=1376616.1376712">Column-Stores vs. Row-Stores: How Different Are They Really?</a>, SIGMOD 2008 </li>
+                     <li>(B) <a href="https://dl.acm.org/citation.cfm?id=1083658">C-Store: A Column-oriented DBMS</a>, VLDB 2005</li>
+                     </ul>
+                     </p>
+
+
+
+                     <h3 class="post-subtitle">
+                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
+                         Class <script type="text/javascript">document.write(cday+1)</script>: Adaptive &amp; Hybrid Layouts <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
+                     </h3>
+                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
+                     <p class="post-content">
+                     <strong>Concepts</strong>: on-line transaction processing (OLTP), on-line analytical processing (OLAP), n-ary storage model (NSM), decomposition storage model (DSM),
+                     partition attributes across (PAX), flexible storage model (FSM), projectivity, selectivity, concurrency control, multi-version concurrency control (MVCC),
+                     two-phase locking (2PL)
+                     <h4>Readings</h4>
+                     <ul class="mylist">
+                         <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/CAS-CS561-Class6-student-presentation.pdf">Discussion Slides</a> </li> -->
+                         <li> <strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?id=2915231">Bridging the Archipelago between Row-Stores and Column-Stores for Hybrid Workloads</a>, SIGMOD 2016 (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>) </li>
+                         <li> (B) <a href="https://dl.acm.org/citation.cfm?id=2610502">H2O: A Hands-free Adaptive Store</a>, SIGMOD 2014</li>
+                     </ul>
                      </p>
 
 
