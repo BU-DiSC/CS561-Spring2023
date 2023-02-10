@@ -51,10 +51,12 @@ void runWorkload(Options& op, WriteOptions& write_op, ReadOptions& read_op) {
 
     {
         //op.memtable_factory = std::shared_ptr<MemTableRepFactory>(NewHashSkipListRepFactory());
+        //op.allow_concurrent_memtable_write = false;
     }
 
     {
         //op.memtable_factory = std::shared_ptr<MemTableRepFactory>(NewHashLinkListRepFactory());
+        //op.allow_concurrent_memtable_write = false;
     }
 
 
