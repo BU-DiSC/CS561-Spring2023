@@ -856,227 +856,37 @@ Filter Towards Efficient Read for LSM-tree based KV Stores</a>, HotStorage 2018<
                      <ul class="mylist">
                           <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/CAS-CS561-Class17-student-presentation.pdf" >Discussion Slides</a> </li> -->
                           <li><strong>(P)</strong> <a href="https://openproceedings.org/2023/conf/edbt/paper-177.pdf">Relational Memory: Native In-Memory Accesses on Rows and Columns</a>, EDBT 2023 </li>
+                          <li> (B) <a href="https://cs-people.bu.edu/mathan/publications/icde23-vision.pdf">Relational Fabric: Transparent Data Transformation</a>, ICDE 2023</li>
 
-                           <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text"> TBD</em> </li>
+                           <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text"> This paper proposes a specialized hardware for data transformation. What is the benefit of focusing only on the data reorganization? What else can be done to improve the performance of CPU-intensive queries?</em> </li>
                           </ul>
                       </p>
 
 
-
-
-                    <!-- <h3 class="post-subtitle">
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Indexng for RDMA Networks
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <ul class="mylist">
-                         <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/10.1145/3299869.3300081">Designing Distributed Tree-based Index Structures for Fast RDMA-capable Networks</a>, SIGMOD 2019 (paper for <strong class="red">REVIEW</strong>) [<a href="https://av.tib.eu/media/42976" target="_blank">conf. present. video</a>]</li>
-                     </ul>
-                     </p> -->
-
-                     <!-- <h2 class="text-center">E. Scientific Data Management</h2>
-
-
                      <h3 class="post-subtitle">
                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: In-Situ Data Processing
+                        Class <script type="text/javascript">document.write(cday+1)</script>: Guest Lecture on Systems for ML: <a style="color:#0048AA" href="https://scholar.harvard.edu/sanket/home" target="_blank">Sanket Purandare</a>
                      </h3>
                      <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <strong>Concepts</strong>: in-situ query processing, raw data files, adaptive partitioning, fine-grained indexing, query-based vs. homogenous partitioning,
-                     implicit clustering, eviction policy, workload shift, memory consumption
-                     <h4>Readings</h4>
                      <ul class="mylist">
-                        <li><strong>(P)</strong> <a href="http://www.vldb.org/pvldb/vol10/p1106-olma.pdf">Slalom: Coasting Through Raw Data via Adaptive Partitioning and Indexing</a>, VLDB 2017 </li>
-                        <li> (B) <a href="https://dl.acm.org/citation.cfm?id=2213864">NoDB: Efficient Query Execution on Raw Data Files</a>, SIGMOD 2012</li>
-                     </ul>
-                     </p> -->
+                          <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/CAS-CS561-Class17-student-presentation.pdf" >Discussion Slides</a> </li> -->
+                          <!-- <li><strong>(P)</strong> <a href="https://openproceedings.org/2023/conf/edbt/paper-177.pdf">Relational Memory: Native In-Memory Accesses on Rows and Columns</a>, EDBT 2023 </li> -->
+                          <li> (B) <a href="https://proceedings.mlsys.org/paper_files/paper/2021/file/a97da629b098b75c294dffdc3e463904-Paper.pdf">Horizontally Fused Training Array: An Effective Hardware Utilization Squeezer for Trainingnovel Deep Learning Models</a>, MLSys 2021</li>
+                          <li> (B) <a href="https://dl.acm.org/doi/pdf/10.1145/3373376.3378505">Capuchin: Tensor-based GPU Memory Management for Deep Learning</a>, ASPLOS 2020</li>
+                        </ul>
+                      </p>
+                      
 
-                     <!-- <h3 class="post-subtitle">
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Multi-dimensional Data Management <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <strong>Concepts</strong>: array management systems, multi-dimensional arrays, storage manager, tiles, thread-safe, process-safe, atomicity,
-                     dense vs. sparse arrays, global cell order, fragments, dense vs. sparse fragments, consolidation
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                        <li><strong>(P)</strong> <a href="http://www.vldb.org/pvldb/vol10/p349-papadopoulos.pdf">The TileDB Array Data Storage Manager</a>, VLDB 2017 [<a href="https://www.slideshare.net/PyData/the-tiledb-array-data-storage-manager-stavros-papadopoulos-jake-bolewski" target="_blank">wide auidence slides</a>]</li>
-                        <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">TileDB: Global cell order can significantly impact application performance. Explain the benefit from global cell order and the setting (space tile extents and tile/cell order) that can minimize the read cost by using an example. </em> </li>
-            			<li> (B) <a href="https://dl.acm.org/citation.cfm?id=1807271">Overview of SciDB: Large Scale Array Storage, Processing and Analysis</a>, SIGMOD 2010</li>
-
-                       </em></li>
-                     </ul>
-                     </p> -->
-
-<!--
-                     <h2 class="text-center">F. Distributed Data Management</h2>
-
+                      
+                      
+                     <h2 class="text-center">Project Presentation</h2>
                      <h3 class="post-subtitle">
                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Global Distributed Systems
+                        Class <script type="text/javascript">document.write(cday+1)</script>: Project Presentation
                      </h3>
                      <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
                      <p class="post-content">
-                     <strong>Concepts</strong>: global-scale distributed database, concurrency control, Paxos, data sharding, external consistency, TrueTime API
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/13.Spanner_AneeshRaman_ThanasisFilippidis.pdf">Discussion Slides</a> </li>
-                         <li><strong>(P)</strong> <a href="https://www.usenix.org/system/files/conference/osdi12/osdi12-final-16.pdf">Spanner: Google's Globally-Distributed Database</a>, OSDI 2012 (paper for <strong class="red">REVIEW</strong>) [<a href="https://www.usenix.org/conference/osdi12/technical-sessions/presentation/corbett" target="_blank">public slides/video</a>]</li>
-                         <li> (B) <a href="http://cidrdb.org/cidr2011/Papers/CIDR11_Paper32.pdf">Megastore: Providing Scalable, Highly Available Storage for Interactive Services</a>, CIDR 2011</li>
-                     </ul>
-                     </p> -->
-
-
-
-                     <!-- <div class="alert alert-danger" role="alert">
-                        <h3 class="post-subtitle" id="research-talk-3" style="margin:0px">
-                            <em>Guest Lecture <script type="text/javascript">document.write((rday++)+1)</script>: TBA</em>
-                      </h3>
-                      <p style="border:0px; margin:0px;">&nbsp;&nbsp;&nbsp;from <a href="https://jialinding.github.io/" target="_blank">Jialin Ding</a>, MIT</p>
-                      <p style="border:0px; margin:0px;">Part of <strong> Machine Learning for Data Systems</strong></p>
-                         <p class="" style="text-decoration: underline;"><em><strong>Date &amp; Time:</strong> Outside class schedule: Friday, April 10th at 11am.</em> </p>
-                         <p class="" style="text-decoration: underline;"><a href="https://piazza.com/class/k5ffzklkd1z54v?cid=58" target="_blank">Click here for the recording!</a></p>
-                         <p class="post-content"><strong>Abstract:</strong> Scanning and filtering over multi-dimensional tables are key operations in modern analytical database engines. To optimize the performance of these operations, databases often create clustered indexes over a single dimension or multi-dimensional indexes such as R-Trees, or use complex sort orders (e.g., Z-ordering). However, these schemes are often hard to tune and their performance is inconsistent across different datasets and queries.
-                         In this talk, I will present Flood, a multi-dimensional in-memory read-optimized index that automatically adapts itself to a particular dataset and workload by jointly optimizing the index structure and data storage layout. Flood achieves up to three orders of magnitude faster performance for range scans with predicates than state-of-the-art multi-dimensional indexes or sort orders on real-world datasets and workloads. Our work serves as a building block towards an end-to-end learned database system. Our paper on Flood will appear at SIGMOD 2020.
-                        I will also talk about our continuing work on extending the ideas of Flood to address real-world challenges of indexing multi-dimensional data such as data correlation, non-uniform queries, and categorical attributes.</p>
-                         <p class="post-content"><strong>Bio:</strong> Jialin Ding is a second-year PhD student in the MIT Data Systems Group, where he is advised by Prof. Tim Kraska. His research focuses broadly on the application of machine learning to data systems. He also collaborates with Umar Farooq Minhas and the Database Group at Microsoft Research on learned data structures. Prior to MIT, Jialin was an undergraduate at Stanford University, where he worked on data-intensive systems with Prof. Peter Bailis at part of Stanford DAWN.
-                         </p>
-                         <p>
-                         <h4 style="color:black">Readings</h4>
-                         <ul class="mylist">
-                             <li style="color:black"><a style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/JialinDing_LearnedMultidimensionalIndexes.pdf">Slides from Jialin Ding</a></li>
-                         </ul>
-                     </p>
-                    </div> -->
-
-                     <!-- <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Map/Reduce: Data Management at Scale
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <strong>Concepts</strong>: Map/Reduce, distributed file systems, resource management, positional delta trees, SQL-on-Map/Reduce, massively parallel processing database management systems (MPP DBMS), user-defined functions (UDF), encryption, authentication, user role management, elasticity, data warehouse, fact table, merge-join, partitioning attributes across (PAX) layout, message passing interface (MPI), two-phase commit (2PC), ACID
-                     </p>
-                     <p class="post-content">
-                     <strong>Systems/Approaches</strong>: Hadoop, Spark, YARN, HDFS Hive, Impala, Vectorwise, Actian Vector
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/14.VectorH_XiaotongNiu_XiaoyanGe.pdf">Discussion Slides</a> </li>
-                         <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?id=2903742">VectorH: Taking SQL-on-Hadoop to the Next Level</a>, SIGMOD 2016 (paper for <strong class="red">TECHNICAL QUESTION</strong>)</li>
-                         <li class="tech-question"><strong>Technical Question:</strong> <em>
-                            VectorH uses Vectorwise as a springboard to
-                            jumpstart its development. In particular, the query
-                            optimizer of Vectorwise makes the big assumption
-                            that all workers can read everything with an equal
-                            IO cost. With VectorH, these assumptions are
-                            invalidated. How do the authors redesign the query
-                            optimizer to work with this new constraint and can
-                            you think of how they modeled the new cost? What
-                            benefits does VectorH receive from their solution?
-                        </em></li>
-                         <li> (B) <a href="http://www.vldb.org/pvldb/vol7/p1295-floratou.pdf">SQL-on-Hadoop: Full Circle Back to Shared-Nothing Database Architectures</a>, VLDB 2014</li>
-                         <li> (B) <a href="http://www.vldb.org/pvldb/2/vldb09-861.pdf">HadoopDB: An Architectural Hybrid of MapReduce and DBMS Technologies for Analytical Workloads</a>, VLDB 2009</li>
-                         <li> (B) <a href="https://dl.acm.org/doi/10.1145/1327452.1327492">MapReduce: simplified data processing on large clusters</a>, CACM 2008</li>
-                     </ul>
-                     </p> -->
-
-                     <!-- <h2 class="text-center">F. Machine Learning for Data Systems</h2>
-
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Machine Learning for Data Systems
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <strong>Concepts</strong>: physical design, machine learning, tuning knobs, database administrator (DBA), OtterTune, workload characterization, k-means clustering, knob identification, automatic tuner, feature selection, linear regression model, ordinary least squares, workload mapping (dynamic vs. static), configuration recommendation
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?id=3064029">Automatic Database Management System Tuning Through Large-scale Machine Learning</a>, SIGMOD 2017 [<a href="https://www.youtube.com/watch?v=OnFBoWsdJqo&t=1530" target="_blank">conf. present. video</a>]</li>
-                         <li> (B) <a href="http://www.pdl.cmu.edu/PDL-FTP/Database/p42-pavlo-cidr17.pdf">Self-Driving Database Management Systems</a>, CIDR 2017</li>
-                         <li> (B) <a href="https://doi.org/10.1145/3318464.3380579">Learning Multi-Dimensional Indexes</a>, SIGMOD 2018 [<a href="https://vimeo.com/442093133#t=1050s" target="_blank">conf. present. video</a>]</li>
-                         <li> (B) <a href="https://dl.acm.org/citation.cfm?id=3196909">The Case for Learned Index Structures</a>, SIGMOD 2018 [<a href="https://www.youtube.com/watch?v=MM33CvATm_M" target="_blank">conf. present. video</a>]</li>
-                         <li> (B) <a href="http://sites.computer.org/debull/A21mar/p3.pdf">ML-In-Databases: Assessment and Prognosis</a>, IEEE Data Engineering Bulletin, 44(1), March 2021 </li>
-                         <li> (B) <a href="http://www.vldb.org/pvldb/vol12/p1705-marcus.pdf">Neo: A Learned Query Optimizer</a>, VLDB 2019 </li>
-                         <li> (B) <a href="http://cidrdb.org/cidr2019/papers/p117-kraska-cidr19.pdf">SageDB: A Learned Database System</a>, CIDR 2019 </li>
-                         <li> (B) <a href="https://stratos.seas.harvard.edu/files/stratos/files/selfdesignedandlearnedsystems.pdf">From Auto-tuning One Size Fits All to Self-designed and Learned Data-intensive Systems</a>, SIGMOD 2019 </li>
-
-                     </ul>
-                     </p>
-
-
-
-
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Learned Indexes
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/10.1145/3318464.3389711">Alex: An Updatable Adaptive Learned Index</a>, SIGMOD 2020 [<a href="https://www.youtube.com/watch?v=wVxbOcwYZ8I" target="_blank">conf. present. video</a>]</li>
-                         <li>(B) <a href="https://dl.acm.org/doi/10.1145/3299869.3319860">FITing-Tree: A Data-aware Index Structure</a>, SIGMOD 2019 [<a href="https://av.tib.eu/media/42914" target="_blank">conf. present. video</a>]</li>
-                         <li>(B) <a href="http://cs.brown.edu/people/acrotty/pubs/cidr2021_paper20.pdf">Hist-Tree: Those Who Ignore It Are Doomed to Learn</a>, CIDR 2021 [<a href="https://www.youtube.com/watch?v=ruELVKr54yI" target="_blank">conf. present. video</a>]</li>
-                      </ul>
-                     </p> -->
-
-                     <!-- <h3 class="post-subtitle">
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Learned Query Optimization
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><strong>(P)</strong> <a href="http://www.vldb.org/pvldb/vol12/p1705-marcus.pdf">Neo: A Learned Query Optimizer</a>, PVLDB 2019 (paper for <strong class="red">REVIEW</strong>)</li>
-                     </ul>
-                     </p> -->
-
-                     <!-- <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Learned Query Evaluation
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                      <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><strong>(P)</strong> <a href="http://wrap.warwick.ac.uk/115961/7/WRAP-DBEst-revisiting-approximate-query-processing-engines-machine-learning-models-Triantafillou-2019.pdf">DBEst: Revisiting Approximate Query Processing Engines with Machine Learning Models</a>, SIGMOD 2019 [<a href="https://av.tib.eu/media/42909" target="_blank">conf. present. video</a>]</li>
-			 <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">DBEst: The authors explain that DBEst uses models, unlike other competing AQP approaches. Explain how models are built and how they can answer aggregate functions. </em> </li>
-                    </ul>
-                     </p> -->
-
-       <!-- <div class="alert alert-danger" role="alert"> -->
-                        <!-- <h3 class="post-subtitle" id="research-talk-2" style="margin:0px">
-                            <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                            Class <script type="text/javascript">document.write(cday+1)</script>: Guest Lecture on "Building a Healthcare Computational Engine: The case for purpose-built systems"
-                      </h3>
-                      <p style="border:0px; margin:0px;">&nbsp;&nbsp;&nbsp;from <a href="https://www.linkedin.com/in/angelok1/" target="_blank">Angelo Kastroulis</a>, Ballista Technology Group</p>
-                      <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                         <p class="post-content"><strong>Bio:</strong> Angelo is a data scientist, author, speaker, engineer, podcaster,
-                            entrepreneur, and inventor. He has served in a variety of executive positions (CTO, COO, CEO) in health IT,
-                            consulting, and fintech before founding the consulting firm Carrera Group. Along the way, he has contributed to
-                            several health standards.
-                            Angelo received his graduate degree from Harvard University where he studied high-performance
-                                computing and artificial intelligence. His research in the Harvard Data Systems Laboratory
-                                focused on methods of artificial intelligence that enable self-tuning data systems, resulting
-                                in patents and published research.
-                            Angelo is currently CEO of Ballista Technology Group (a high-performance computing consulting
-                            firm and next generation VC) and host of the <a href="https://CountingSandShow.com" target="_blank">Counting Sand podcast</a>.
-                         </p>
-                         <p>
-                            Twitter: <a href="https://twitter.com/angelokastr" target="_blank">@angelokastr</a> <a href="https://twitter.com/ballistagroup" target="_blank">@ballistagroup</a></p> -->
-
-                    <!-- </div> -->
-
-
-
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Project Presentations
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                         Project Presentations
+                         Project Presentation - I
                      <!-- <h4>Readings</h4> -->
                      <ul class="mylist">
                       </ul>
@@ -1084,23 +894,11 @@ Filter Towards Efficient Read for LSM-tree based KV Stores</a>, HotStorage 2018<
 
                      <h3 class="post-subtitle">
                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Project Presentations
+                        Class <script type="text/javascript">document.write(cday+1)</script>: Project Presentation
                      </h3>
                      <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
                      <p class="post-content">
-                         Project Presentations
-                     <!-- <h4>Readings</h4> -->
-                     <ul class="mylist">
-                      </ul>
-                     </p>
-
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Project Presentations
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                        Project Presentations
+                        Project Presentation - II
                         <ul class="mylist">
                         </ul>
                          </p>
