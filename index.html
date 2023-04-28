@@ -34,33 +34,30 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-        .tech-question
-        {
+        .tech-question {
             /* display: none !important; */
             /*color: #cc0000 !important;*/
             /* font-size: 12pt !important; */
         }
     </style>
-  <script type="text/javascript">
-      function classDay(d){
-        var dates2021Spring = ["January 26","January 28","February 2","February 4","February 9","February 11","February 18","February 23","February 25","March 2","March 4","March 9","March 11","March 16","March 23","March 25","March 30","April 1","April 6","April 8","April 13","April 15","April 20","April 22","April 27","April 29"];
-        var dates2022Spring = ["January 20","January 25","January 27","February 1","February 3","February 8","February 10","February 15","February 17","February 24","March 1","March 3","March 15","March 17","March 22","March 24","March 29","March 31","April 5","April 7"
-        ,"April 12","April 14","April 19","April 21","April 26","April 28","May 3"];
-        var dates2023Spring = ["January 19","January 24","January 26","January 31","February 2","February 7","February 9","February 14","February 16","February 23","February 28","March 2","March 14","March 16","March 21","March 23","March 28","March 30","April 4","April 6"
-        ,"April 11","April 13","April 18","April 20","April 25","April 27","May 2"];
-        // this should always be the current semester
-        var dates = dates2023Spring;
-        if (d>=0 && d<27)
-          return dates[d];
-        else
-          return "TBA";
-       }
-       var cday=0;
-       var rday=0;
-       var cancelday=0;
-       var review=1;
-       var techq=1;
-       var studpres=1;
+    <script type="text/javascript">
+        function classDay(d) {
+            var dates2021Spring = ["January 26", "January 28", "February 2", "February 4", "February 9", "February 11", "February 18", "February 23", "February 25", "March 2", "March 4", "March 9", "March 11", "March 16", "March 23", "March 25", "March 30", "April 1", "April 6", "April 8", "April 13", "April 15", "April 20", "April 22", "April 27", "April 29"];
+            var dates2022Spring = ["January 20", "January 25", "January 27", "February 1", "February 3", "February 8", "February 10", "February 15", "February 17", "February 24", "March 1", "March 3", "March 15", "March 17", "March 22", "March 24", "March 29", "March 31", "April 5", "April 7", "April 12", "April 14", "April 19", "April 21", "April 26", "April 28", "May 3"];
+            var dates2023Spring = ["January 19", "January 24", "January 26", "January 31", "February 2", "February 7", "February 9", "February 14", "February 16", "February 23", "February 28", "March 2", "March 14", "March 16", "March 21", "March 23", "March 28", "March 30", "April 4", "April 6", "April 11", "April 13", "April 18", "April 20", "April 25", "April 27", "May 2"];
+            // this should always be the current semester
+            var dates = dates2023Spring;
+            if (d >= 0 && d < 27)
+                return dates[d];
+            else
+                return "TBA";
+        }
+        var cday = 0;
+        var rday = 0;
+        var cancelday = 0;
+        var review = 1;
+        var techq = 1;
+        var studpres = 1;
     </script>
 
 </head>
@@ -108,11 +105,11 @@
                     <li>
                         <a href="https://disc.bu.edu/" target="_blank">DiSC lab</a>
                     </li>
-<!--                     <li>
+                    <!--                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
  -->
-    <!--                 <li>
+                    <!--                 <li>
                         <a href="#first">1st</a>
                     </li>
                     <li>
@@ -139,31 +136,31 @@
                         <hr class="small">
                         <!-- <span class="subheading">Understanding the internals of database systems</span> -->
 
-                    <div class="row">
-                        <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-4">
                                 <a class="btn btn-xl" href="documents/CS561-Spring2023-syllabus.pdf" target="_blank">Syllabus</a>
-                        </div>
-                        <div class="col-md-4">
+                            </div>
+                            <div class="col-md-4">
                                 <a class="btn btn-xl" href="project.html">Class Projects</a>
-                        </div>
-                        <div class="col-md-4">
+                            </div>
+                            <div class="col-md-4">
                                 <a class="btn btn-xl" href="#announcements">Announcements</a>
-                        </div>
+                            </div>
 
-                    </div>
+                        </div>
 
                     </div>
                 </div>
             </div>
-                        <!-- <p class="text-center"> -->
-                    <!-- <a class="btn btn-xl" href="syllabus.html">What is this class about?</a>&nbsp;&nbsp;&nbsp; -->
-                    <!-- <a class="btn btn-xl" href="documents/CS591A1-Spring2019-syllabus.pdf">Syllabus</a>&nbsp;&nbsp;&nbsp; -->
-                    <!-- <a class="btn btn-xl" href="project.html">Class Projects</a>&nbsp;&nbsp;&nbsp; -->
-                    <!-- <a class="btn btn-xl inactiveLink">Class Projects</a>&nbsp;&nbsp;&nbsp; -->
-                    <!-- <a class="btn btn-xl" href="#announcements">Announcements</a> -->
-                <!-- </p> -->
-                    <!-- </div> -->
-                <!-- </div> -->
+            <!-- <p class="text-center"> -->
+            <!-- <a class="btn btn-xl" href="syllabus.html">What is this class about?</a>&nbsp;&nbsp;&nbsp; -->
+            <!-- <a class="btn btn-xl" href="documents/CS591A1-Spring2019-syllabus.pdf">Syllabus</a>&nbsp;&nbsp;&nbsp; -->
+            <!-- <a class="btn btn-xl" href="project.html">Class Projects</a>&nbsp;&nbsp;&nbsp; -->
+            <!-- <a class="btn btn-xl inactiveLink">Class Projects</a>&nbsp;&nbsp;&nbsp; -->
+            <!-- <a class="btn btn-xl" href="#announcements">Announcements</a> -->
+            <!-- </p> -->
+            <!-- </div> -->
+            <!-- </div> -->
             <!-- </div> -->
         </div>
     </header>
@@ -173,24 +170,24 @@
     <div class="" id="first">
 
 
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-            <!-- <div class="alert alert-success text-center" role="alert">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <!-- <div class="alert alert-success text-center" role="alert">
                 <p><strong>Note: </strong> If you have enrolled/want to enroll for CS 561, please read <a href="https://piazza.com/class/laladejvu8y768/post/6" target="_blank">this Piazza post</a>.
                 </p>
             </div> -->
 
-          <!--   <div class="alert alert-danger text-center" role="alert" style="margin-top:-0.25cm;">
+                <!--   <div class="alert alert-danger text-center" role="alert" style="margin-top:-0.25cm;">
                 <p><strong>Note: </strong> The material of the website is currently updated. Please visit periodically to monitor updates as the beginning of the semester approaches.
                 <p><strong>Note: </strong> The class schedule is now finalized, however, monitor the website for any updates during the semester.
                 </p>
             </div> -->
+            </div>
         </div>
-    </div>
 
         <div class="row">
-        	<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-        		<h1 class="text-center">Class at a glance</h1>
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <h1 class="text-center">Class at a glance</h1>
             </div>
             <!-- <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
                 <div class="alert alert-danger" role="alert">
@@ -206,22 +203,21 @@
             </div> -->
 
             <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 text-center">
-				<p>Class: Tu/Th 12:30-1:45pm <a href="http://www.bu.edu/classrooms/classroom/mcs-b37/" target="_blank">(MCS B37)</a>
-				<br>
-				Instructor: <a href="https://subhadeepsarkar.bitbucket.io/" target="_blank">Subhadeep Sarkar</a>&nbsp;<a href="mailto:ssarkar1@bu.edu?subject=[CS561]"><i class="fa fa-envelope"></i></a></p>
-                <p>Lab: Fri 9:05-9:55am <a href="https://www.bu.edu/classrooms/classroom/cas-116/" target="_blank">(CAS 116)</a><br>
-				Teaching Fellow: <em><a href="http://cs-people.bu.edu/zczhu/" target="_blank">Zichen Zhu</a></em>&nbsp;<a href="mailto:zczhu@bu.edu?subject=[CS561]"><i class="fa fa-envelope"></i></a></p>
-			</div>
-			<div class="col-lg-4 col-md-4 text-center">
-				<p> OH: Tue/Thu 2-3pm<br>
-				Office: CCDS 939 (@665 Comm. Ave.)
-				<p>
-                Discussion on <a href="https://piazza.com/bu/spring2023/cs561" target="_blank">Piazza</a>
-                <br>TF OH: Mon/Wed 4-5pm (CCDS 925D)
-                <!-- <a href="https://piazza.com/class/kxhzecvxmmd1u7?cid=12" target="_blank">Posted on Piazza</a> -->
-                <br>Grades on <a href="https://www.gradescope.com/courses/470999" target="_blank">Gradescope</a>
+                <p>Class: Tu/Th 12:30-1:45pm <a href="http://www.bu.edu/classrooms/classroom/mcs-b37/" target="_blank">(MCS B37)</a>
+                    <br> Instructor: <a href="https://subhadeepsarkar.bitbucket.io/" target="_blank">Subhadeep Sarkar</a>&nbsp;<a href="mailto:ssarkar1@bu.edu?subject=[CS561]"><i class="fa fa-envelope"></i></a></p>
+                <p>Lab: Fri 9:05-9:55am <a href="https://www.bu.edu/classrooms/classroom/cas-116/" target="_blank">(CAS 116)</a><br> Teaching Fellow: <em><a href="http://cs-people.bu.edu/zczhu/" target="_blank">Zichen Zhu</a></em>&nbsp;
+                    <a href="mailto:zczhu@bu.edu?subject=[CS561]"><i class="fa fa-envelope"></i></a>
                 </p>
-			</div>
+            </div>
+            <div class="col-lg-4 col-md-4 text-center">
+                <p> OH: Tue/Thu 2-3pm<br> Office: CCDS 939 (@665 Comm. Ave.)
+                    <p>
+                        Discussion on <a href="https://piazza.com/bu/spring2023/cs561" target="_blank">Piazza</a>
+                        <br>TF OH: Mon/Wed 4-5pm (CCDS 925D)
+                        <!-- <a href="https://piazza.com/class/kxhzecvxmmd1u7?cid=12" target="_blank">Posted on Piazza</a> -->
+                        <br>Grades on <a href="https://www.gradescope.com/courses/470999" target="_blank">Gradescope</a>
+                    </p>
+            </div>
         </div>
     </div>
 
@@ -235,34 +231,43 @@
             <div class="col-lg-8 col-lg-offset-2 col-xs-10 col-xs-offset-1">
                 <ul class="mylist2">
 
-                <!-- <li> Final grades are now uploaded! </li>
+                    <!-- <li> Final grades are now uploaded! </li>
                 <li> Register for your <a href="https://doodle.com/poll/ey726g9zepy3kpag" target="_blank" style="text-decoration: underline">project presentation</a>. </li>
                 <li> A list of useful links added in the <a href="project.html" target="_blank" style="text-decoration: underline">project page</a>. </li>
                 <li> Our first visitor is coming on March 5th! </li>-->
-                <li> <span class="blink">New</span> Slides for Class 19 are now available. </li>
-                <li> <span class="blink">New</span> Slides for Class 18 are now available. </li>
-                <li> <span class="blink">New</span> Slides for Class 17 are now available. </li>
-                <li> Slides for Class 16 are now available. </li>
-                <li> Slides for Class 15 are now available. </li>
-                <li> Slides for Class 14 are now available. </li>
-                <li> Slides for Class 13 are now available. </li>
-                <li> Slides for Class 12 are now available. </li>
-                <li> More details about the projects are available in the <a href="project.html" target="_blank" style="text-decoration: underline">project page</a>. Proposal due:  <font color="red">March 12th</font>. </li>
-                <li>  Slides for Class 11 are now available. </li>
-                <li>  Slides for Class 10 are now available. </li>
-                <li>  Slides for Class 9 are now available. </li>
-                <li> Slides for Class 8 are now available. </li>
-                <li> <a href="./projects/CS561-S23-Proj1-RocksDB.pdf" target="_blank">Project 1</a> is released. Due date: <font color="red">Feb 20</font>.</li>
-                <li> Due date of Project 0 has been extended to <font color='red'>Feb 5</font>. </li>
-                <!-- <li> <a href="https://tinyurl.com/CASCS591A1-presentations" target="_blank" style="text-decoration: underline">Register</a> for presentations! </li> -->
+                    <li> <span class="blink">New</span> Slides for Class 25 are now available. </li>
+                    <li> Slides for Class 24 are now available. </li>
+                    <li> Slides for Class 23 are now available. </li>
+                    <li> Slides for Class 22 are now available. </li>
+                    <li> Slides for Class 21 are now available. </li>
+                    <li> Slides for Class 20 are now available. </li>
+                    <li> Slides for Class 19 are now available. </li>
+                    <li> Slides for Class 18 are now available. </li>
+                    <li> Slides for Class 17 are now available. </li>
+                    <li> Slides for Class 16 are now available. </li>
+                    <li> Slides for Class 15 are now available. </li>
+                    <li> Slides for Class 14 are now available. </li>
+                    <li> Slides for Class 13 are now available. </li>
+                    <li> Slides for Class 12 are now available. </li>
+                    <li> More details about the projects are available in the <a href="project.html" target="_blank" style="text-decoration: underline">project page</a>. Proposal due:
+                        <font color="red">March 12th</font>. </li>
+                    <li> Slides for Class 11 are now available. </li>
+                    <li> Slides for Class 10 are now available. </li>
+                    <li> Slides for Class 9 are now available. </li>
+                    <li> Slides for Class 8 are now available. </li>
+                    <li> <a href="./projects/CS561-S23-Proj1-RocksDB.pdf" target="_blank">Project 1</a> is released. Due date:
+                        <font color="red">Feb 20</font>.</li>
+                    <li> Due date of Project 0 has been extended to
+                        <font color='red'>Feb 5</font>. </li>
+                    <!-- <li> <a href="https://tinyurl.com/CASCS591A1-presentations" target="_blank" style="text-decoration: underline">Register</a> for presentations! </li> -->
 
-                <!-- <li> <strong><a href="https://piazza.com/class/k5ffzklkd1z54v?cid=58">All class recordings</a></strong></li>
+                    <!-- <li> <strong><a href="https://piazza.com/class/k5ffzklkd1z54v?cid=58">All class recordings</a></strong></li>
                 <li> <strong><a href="https://piazza.com/class/k5ffzklkd1z54v?cid=50">Class/OH/Guest Lectures Zoom Links</a></strong></li>
                 <li> Deadline for midway report remains the same (March 21st) - late submission is allowed.</li>
                 <li> <strong><a href="https://piazza.com/class/k5ffzklkd1z54v?cid=41">Important updates in light of COVID-19</a></strong></li>
                 <li> Guest lectures for this semester on March 19th and March 26th! </li>
                 <li> Class starts on 1/21.</li> -->
-                <!-- <li> <a href="https://www.overleaf.com/read/ryckhctxswvk" target="_blank">Midterm Report</a> is due on <font color="red">March 28</font>. </li>
+                    <!-- <li> <a href="https://www.overleaf.com/read/ryckhctxswvk" target="_blank">Midterm Report</a> is due on <font color="red">March 28</font>. </li>
 
                 <li> <a href="https://www.gradescope.com/courses/342653/assignments/1760895" target="_blank">Final Project Report</a> <font color="red"> Due date: May 6th</font></li>
                 <li> <a href="https://www.gradescope.com/courses/342653/assignments/1998394/" target="_blank">Preliminary Project Report</a> <font color="red"> Due date: April 27th</font></li>
@@ -270,12 +275,14 @@
                 <li> <a href="https://www.gradescope.com/courses/342653/assignments/1760893" target="_blank">Midway Report</a> <font color="red"> Due date: <del>March 25th</del> March 31st</font></li>
                 <li> <a href="./projects/Proj1.pdf" target="_blank">Project 1</a> is released. <font color="red">Due date: Feb 19th</font></li> -->
 
-                <li> <a href="https://docs.google.com/document/d/1Lr-pwN7YYjL9Qk7riVvABwZyOhvVmAZsCjToghIYs8E/edit" target="_blank">Register</a> for presentation by <font color="red">Jan 31</font>. </li>
-                <li> <a href="./projects/CS561-S23-Proj0-Zonemaps.pdf" target="_blank">Project 0</a> is released. Due date: <font color="red">Feb 2</font>.</li>
-                <li> The schedule is populated with the papers to discuss. </li>
-                <li> Updated <a href="documents/CS561-Spring2023-syllabus.pdf" target="_blank">syllabus</a> is now online (subject to changes). </li>
-                <li> Class starts on Jan 19 - stay tuned for updates.</li>
-            </ul>
+                    <li> <a href="https://docs.google.com/document/d/1Lr-pwN7YYjL9Qk7riVvABwZyOhvVmAZsCjToghIYs8E/edit" target="_blank">Register</a> for presentation by
+                        <font color="red">Jan 31</font>. </li>
+                    <li> <a href="./projects/CS561-S23-Proj0-Zonemaps.pdf" target="_blank">Project 0</a> is released. Due date:
+                        <font color="red">Feb 2</font>.</li>
+                    <li> The schedule is populated with the papers to discuss. </li>
+                    <li> Updated <a href="documents/CS561-Spring2023-syllabus.pdf" target="_blank">syllabus</a> is now online (subject to changes). </li>
+                    <li> Class starts on Jan 19 - stay tuned for updates.</li>
+                </ul>
                 <br>
                 <br>
 
@@ -319,11 +326,10 @@
     <div class="alternate" id="schedule">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-            	<h1 class="text-center">Class Schedule (tentative)</h1>
+                <h1 class="text-center">Class Schedule (tentative)</h1>
 
                 <p>
-                Here you can find the <em>tentative</em> schedule of the class (which
-                might change as the semester progresses).
+                    Here you can find the <em>tentative</em> schedule of the class (which might change as the semester progresses).
                 </p>
                 <!-- <p>
                 The slides will be uploaded here after each class, but they
@@ -336,103 +342,162 @@
 
                 <div class="post-preview">
                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Introduction to Data Systems and CS561
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Introduction to Data Systems and CS561
                     </h3>
-                    <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
                     <p class="post-content"> In this class we will discuss the basics of data systems and the goals and structure of the course.
 
-                    <h4>Readings</h4>
-                    <ul>
-                    <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class1.pdf" >Slides</a> </li>
-                    </ul>
+                        <h4>Readings</h4>
+                        <ul>
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class1.pdf">Slides</a> </li>
+                        </ul>
                     </p>
 
                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Data Systems Architectures Essentials – Part 1
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Data Systems Architectures Essentials – Part 1
                     </h3>
-                    <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                    <p class="post-content"> In this class we discuss the fundamental
-                    components that comprise a database system. We will see the
-                    commonalities and the differences of the main database system
-                    architectures and we will discuss why we have several different ones.
-                    <h4>Readings</h4>
-                    <ul class="mylist">
-                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class2.pdf" >Slides</a> </li>
-                    <li><a href="https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf">Architecture of a Database System</a>, Foundations and Trends in Databases, 2007</li>
-                    <li><a href="https://stratos.seas.harvard.edu/files/stratos/files/columnstoresfntdbs.pdf">The Design and Implementation of Modern Column-Oriented Database Systems</a>, Foundations and Trends in Databases, 2012</li>
-                    <li><a href="https://www.cut.ac.cy/digitalAssets/122/122275_1002013-FnTDB-Survey.pdf">Massively Parallel Databases and MapReduce Systems</a>, Foundations and Trends in Databases, 2013</li>
-                    <li><a href="https://dl.acm.org/doi/abs/10.1145/3385658.3385668">The Seattle Report on Database Research</a>, SIGMOD Record, 2022</li>
-                    </ul>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content"> In this class we discuss the fundamental components that comprise a database system. We will see the commonalities and the differences of the main database system architectures and we will discuss why we have several different ones.
+                        <h4>Readings</h4>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class2.pdf">Slides</a> </li>
+                            <li><a href="https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf">Architecture of a Database System</a>, Foundations and Trends in Databases, 2007</li>
+                            <li><a href="https://stratos.seas.harvard.edu/files/stratos/files/columnstoresfntdbs.pdf">The Design and Implementation of Modern Column-Oriented Database Systems</a>, Foundations and Trends in Databases, 2012</li>
+                            <li><a href="https://www.cut.ac.cy/digitalAssets/122/122275_1002013-FnTDB-Survey.pdf">Massively Parallel Databases and MapReduce Systems</a>, Foundations and Trends in Databases, 2013</li>
+                            <li><a href="https://dl.acm.org/doi/abs/10.1145/3385658.3385668">The Seattle Report on Database Research</a>, SIGMOD Record, 2022</li>
+                        </ul>
                     </p>
 
                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Data Systems Architectures Essentials – Part 2
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Data Systems Architectures Essentials – Part 2
                     </h3>
-                    <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
                     <p class="post-content"> In this class we continue discussing data systems architectures and the basics for modern systems focusing on relational row-stores and column-stores.
-                    <h4>Readings</h4>
-                    <ul class="mylist">
-                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class3.pdf" >Slides</a> </li>
-                    <li><a href="https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf">Architecture of a Database System</a>, Foundations and Trends in Databases, 2007</li>
-                    <li><a href="https://stratos.seas.harvard.edu/files/stratos/files/columnstoresfntdbs.pdf">The Design and Implementation of Modern Column-Oriented Database Systems</a>, Foundations and Trends in Databases, 2012</li>
-                    <li><a href="https://www.cut.ac.cy/digitalAssets/122/122275_1002013-FnTDB-Survey.pdf">Massively Parallel Databases and MapReduce Systems</a>, Foundations and Trends in Databases, 2013</li>
-                    <li><a href="https://dl.acm.org/doi/abs/10.1145/3385658.3385668">The Seattle Report on Database Research</a>, SIGMOD Record, 2022</li>
-                    </ul>
+                        <h4>Readings</h4>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class3.pdf">Slides</a> </li>
+                            <li><a href="https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf">Architecture of a Database System</a>, Foundations and Trends in Databases, 2007</li>
+                            <li><a href="https://stratos.seas.harvard.edu/files/stratos/files/columnstoresfntdbs.pdf">The Design and Implementation of Modern Column-Oriented Database Systems</a>, Foundations and Trends in Databases, 2012</li>
+                            <li><a href="https://www.cut.ac.cy/digitalAssets/122/122275_1002013-FnTDB-Survey.pdf">Massively Parallel Databases and MapReduce Systems</a>, Foundations and Trends in Databases, 2013</li>
+                            <li><a href="https://dl.acm.org/doi/abs/10.1145/3385658.3385668">The Seattle Report on Database Research</a>, SIGMOD Record, 2022</li>
+                        </ul>
                     </p>
 
                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Class Project Overview
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Class Project Overview
                     </h3>
-                    <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
                     <p class="post-content"> In this class the students will be introduced to the class semester project. In that process we describe in detail LSM-trees and we highlight open research problems in data management.
-                    <h4>Readings</h4>
-                    <ul class="mylist">
-                      <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class4.pdf" >Slides</a> </li>
-                      <!-- <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">How does TellStore-Log support fast get/put requests, versioning, and scans at the same time? In other words, describe the key design decisions of TellStore-Log that allows it to achieve fast get/put requests, versioning, and scans.</em> </li> -->
-                      <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/10.1145/3514221.3522563">Dissecting, Designing, and Optimizing LSM-based Data Stores</a>, SIGMOD 2022 </li>
+                        <h4>Readings</h4>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class4.pdf">Slides</a> </li>
+                            <!-- <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">How does TellStore-Log support fast get/put requests, versioning, and scans at the same time? In other words, describe the key design decisions of TellStore-Log that allows it to achieve fast get/put requests, versioning, and scans.</em> </li> -->
+                            <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/10.1145/3514221.3522563">Dissecting, Designing, and Optimizing LSM-based Data Stores</a>, SIGMOD 2022 </li>
 
-                      <li><strong>(P)</strong> <a href="https://arxiv.org/abs/1812.07527">LSM-based Storage Techniques: A Survey</a>, arXiv 2018</li>
-                      <li>(B) <a href="https://dl.acm.org/doi/10.1145/3183713.3196927">Dostoevsky: Better Space-Time Trade-Offs for LSM-Tree Based Key-Value Stores via Adaptive Removal of Superfluous Merging</a>, SIGMOD 2018 [<a href="https://www.youtube.com/watch?v=fmXgXripmh0" target="_blank">conf. present. video</a>]</li>
+                            <li><strong>(P)</strong> <a href="https://arxiv.org/abs/1812.07527">LSM-based Storage Techniques: A Survey</a>, arXiv 2018</li>
+                            <li>(B) <a href="https://dl.acm.org/doi/10.1145/3183713.3196927">Dostoevsky: Better Space-Time Trade-Offs for LSM-Tree Based Key-Value Stores via Adaptive Removal of Superfluous Merging</a>, SIGMOD 2018 [<a href="https://www.youtube.com/watch?v=fmXgXripmh0"
+                                    target="_blank">conf. present. video</a>]</li>
 
 
-                    </ul>
+                        </ul>
                     </p>
 
 
                     <h2 class="text-center">A: Storage Layouts</h2>
                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Log-Structured Merge (LSM) Trees
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Log-Structured Merge (LSM) Trees
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content">
 
-                    <h4>Readings</h4>
-                     <ul class="mylist">
-                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class5.pdf" >Slides</a> </li>
-                        <li><strong>(P)</strong> <a href="http://vldb.org/pvldb/vol14/p2216-sarkar.pdf">Constructing and Analyzing the LSM Compaction Design Space</a>, VLDB 2021 </li>
-                        <li> (B) <a href="https://dl.acm.org/doi/10.1145/3514221.3520169"> Compactionary: A Dictionary for LSM Compactions</a>, SIGMOD 2022 [<a href="https://disc-projects.bu.edu/compactionary/#interactiveDemo">DEMO</a>]</li>
-                     </ul>
-                     </p>
-
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Deletes in LSMs
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-
-                    <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class6.pdf">Slides</a> </li>
-                         <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/abs/10.1145/3318464.3389757">Lethe: A Tunable Delete-Aware LSM Engine</a>, SIGMOD 2020</li>
-                        <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">To ensure bounded delete persistent latency, Lethe aggressively performs compactions. How does these eager compactions affect write amplification of the overall system?</em> </li>
+                        <h4>Readings</h4>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class5.pdf">Slides</a> </li>
+                            <li><strong>(P)</strong> <a href="http://vldb.org/pvldb/vol14/p2216-sarkar.pdf">Constructing and Analyzing the LSM Compaction Design Space</a>, VLDB 2021 </li>
+                            <li> (B) <a href="https://dl.acm.org/doi/10.1145/3514221.3520169"> Compactionary: A Dictionary for LSM Compactions</a>, SIGMOD 2022 [<a href="https://disc-projects.bu.edu/compactionary/#interactiveDemo">DEMO</a>]</li>
                         </ul>
-                     </p>
+                    </p>
+
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Deletes in LSMs
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content">
+
+                        <h4>Readings</h4>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class6.pdf">Slides</a> </li>
+                            <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/abs/10.1145/3318464.3389757">Lethe: A Tunable Delete-Aware LSM Engine</a>, SIGMOD 2020</li>
+                            <li class="tech-question">
+                                <font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">To ensure bounded delete persistent latency, Lethe aggressively performs compactions. How does these eager compactions affect write amplification of the overall system?</em>                                </li>
+                        </ul>
+                    </p>
 
 
 
@@ -440,86 +505,131 @@
                     <h2 class="text-center">B: Modern Storage Engines</h2>
 
 
-                     <h3 class="post-subtitle">
-                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                         Class <script type="text/javascript">document.write(cday+1)</script>: Row-Stores vs. Column-Stores
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <strong>Concepts</strong>: column-stores, row-stores, vertical partitioning, index-only plans, materialized views, tuple reconstruction, late/early materialization,
-                     block iteration, vectorized execution (block iteration), compression (run length encoding), hash joins, index joins, sort-merge joins, invisible joins, star schema
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                     <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class7.pdf" >Slides</a> </li>
-                     <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?doid=1376616.1376712">Column-Stores vs. Row-Stores: How Different Are They Really?</a>, SIGMOD 2008 </li>
-                     <li>(B) <a href="https://dl.acm.org/citation.cfm?id=1083658">C-Store: A Column-oriented DBMS</a>, VLDB 2005</li>
-                     </ul>
-                     </p>
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Row-Stores vs. Column-Stores
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content">
+                        <strong>Concepts</strong>: column-stores, row-stores, vertical partitioning, index-only plans, materialized views, tuple reconstruction, late/early materialization, block iteration, vectorized execution (block iteration), compression
+                        (run length encoding), hash joins, index joins, sort-merge joins, invisible joins, star schema
+                        <h4>Readings</h4>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class7.pdf">Slides</a> </li>
+                            <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?doid=1376616.1376712">Column-Stores vs. Row-Stores: How Different Are They Really?</a>, SIGMOD 2008 </li>
+                            <li>(B) <a href="https://dl.acm.org/citation.cfm?id=1083658">C-Store: A Column-oriented DBMS</a>, VLDB 2005</li>
+                        </ul>
+                    </p>
 
 
 
-                     <h3 class="post-subtitle">
-                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                         Class <script type="text/javascript">document.write(cday+1)</script>: Adaptive &amp; Hybrid Layouts <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <strong>Concepts</strong>: on-line transaction processing (OLTP), on-line analytical processing (OLAP), n-ary storage model (NSM), decomposition storage model (DSM),
-                     partition attributes across (PAX), flexible storage model (FSM), projectivity, selectivity, concurrency control, multi-version concurrency control (MVCC),
-                     two-phase locking (2PL)
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class8.pdf">Discussion Slides</a> </li>
-                         <li> <strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?id=2915231">Bridging the Archipelago between Row-Stores and Column-Stores for Hybrid Workloads</a>, SIGMOD 2016 (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>) </li>
-                         <li> (B) <a href="https://dl.acm.org/citation.cfm?id=2610502">H2O: A Hands-free Adaptive Store</a>, SIGMOD 2014</li>
-                     </ul>
-                     </p>
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Adaptive &amp; Hybrid Layouts
+                        <font class="red">(student presentation
+                            <script type="text/javascript">
+                                document.write("S" + (studpres++));
+                            </script>)</font>
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content">
+                        <strong>Concepts</strong>: on-line transaction processing (OLTP), on-line analytical processing (OLAP), n-ary storage model (NSM), decomposition storage model (DSM), partition attributes across (PAX), flexible storage model (FSM),
+                        projectivity, selectivity, concurrency control, multi-version concurrency control (MVCC), two-phase locking (2PL)
+                        <h4>Readings</h4>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class8.pdf">Discussion Slides</a> </li>
+                            <li> <strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?id=2915231">Bridging the Archipelago between Row-Stores and Column-Stores for Hybrid Workloads</a>, SIGMOD 2016 (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>)
+                            </li>
+                            <li> (B) <a href="https://dl.acm.org/citation.cfm?id=2610502">H2O: A Hands-free Adaptive Store</a>, SIGMOD 2014</li>
+                        </ul>
+                    </p>
 
 
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Guest Lecture on Robust LSM Designs: <a style="color:#0048AA" href="https://cs-people.bu.edu/ndhuynh/" target="_blank">Andy Huynh</a>
-                     </h3>
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Guest Lecture on Robust LSM Designs: <a style="color:#0048AA" href="https://cs-people.bu.edu/ndhuynh/" target="_blank">Andy Huynh</a>
+                    </h3>
 
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content">
 
                         <h4>Readings</h4>
-                         <ul class="mylist">
-                         <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class9.pdf">Slides</a> </li>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class9.pdf">Slides</a> </li>
                             <li><strong>(P)</strong> <a href="http://vldb.org/pvldb/vol15/p1605-huynh.pdf">ENDURE: A Robust Tuning Paradigm for LSM Trees</a>, VLDB 2022 [<a href="https://www.youtube.com/watch?v=RsatTbzOZuI">conf. present. video</a>]</li>
                             <li>(B) <a href="https://dl.acm.org/doi/pdf/10.1145/2723372.2749454"> CliffGuard: A Principled Framework for Finding Robust Database Designs</a>, SIGMOD 2015 </li>
-<li>(B) <a href="https://pubsonline.informs.org/doi/epdf/10.1287/mnsc.1120.1641"> Robust Solutions of Optimization ProblemsAffected by Uncertain Probabilities</a>, Management Science 2012 </li>
-                            </ul>
-                         </p>
+                            <li>(B) <a href="https://pubsonline.informs.org/doi/epdf/10.1287/mnsc.1120.1641"> Robust Solutions of Optimization ProblemsAffected by Uncertain Probabilities</a>, Management Science 2012 </li>
+                        </ul>
+                    </p>
 
 
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Guest Lecture on Bloom Filters in LSM-Trees: <a style="color:#0048AA" href="https://cs-people.bu.edu/zczhu/" target="_blank">Zichen Zhu</a>
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Guest Lecture on Bloom Filters in LSM-Trees: <a style="color:#0048AA" href="https://cs-people.bu.edu/zczhu/" target="_blank">Zichen Zhu</a>
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content">
 
                         <h4>Readings</h4>
-                         <ul class="mylist">
-                         <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class10.pdf">Slides</a> </li>
-                           <li><strong>(P)</strong> <a href="http://cs-people.bu.edu/mathan/publications/adms22-mun.pdf">LSM-Tree Under (Memory) Pressure</a>, ADMS 2022 [<a href="https://www.youtube.com/watch?v=DtvKxqxNiEY">conf. present. video</a>]</li>
-                           <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class10.pdf">Slides</a> </li>
+                            <li><strong>(P)</strong> <a href="http://cs-people.bu.edu/mathan/publications/adms22-mun.pdf">LSM-Tree Under (Memory) Pressure</a>, ADMS 2022 [<a href="https://www.youtube.com/watch?v=DtvKxqxNiEY">conf. present. video</a>]</li>
+                            <li class="tech-question">
+                                <font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">
                              SHaMBa achieves better lookup performance when large BFs do not fit in memory. Can we do something similar if we have large index blocks? Give a concrete example to explain why it could work or not.
                            </em> </li>
 
-                           <li>(B) <a href="https://dl.acm.org/doi/abs/10.1145/3465998.3466002"> Reducing Bloom Filter CPU Overhead in LSM-trees on Modern Storage Devices, DaMon 2021 </li>
+                            <li>(B) <a href="https://dl.acm.org/doi/abs/10.1145/3465998.3466002"> Reducing Bloom Filter CPU Overhead in LSM-trees on Modern Storage Devices, DaMon 2021 </li>
                            <li>(B) <a href="https://www.usenix.org/conference/hotstorage18/presentation/zhang"> ElasticBF: Fine-grained and Elastic Bloom
 Filter Towards Efficient Read for LSM-tree based KV Stores</a>, HotStorage 2018</li>
-                           <li>(B) <a href="https://dl.acm.org/citation.cfm?id=3064054">Monkey: Optimal Navigable Key-Value Store</a>, SIGMOD 2017 [<a href="https://www.youtube.com/watch?v=qQPSR_D2rm4&t=3151" target="_blank">conf. present. video</a>]</li>
+                            <li>(B) <a href="https://dl.acm.org/citation.cfm?id=3064054">Monkey: Optimal Navigable Key-Value Store</a>, SIGMOD 2017 [<a href="https://www.youtube.com/watch?v=qQPSR_D2rm4&t=3151" target="_blank">conf. present. video</a>]</li>
 
-                            </ul>
-                         </p>
+                        </ul>
+                    </p>
 
 
 
-                     <!-- <h3 class="post-subtitle">
+                    <!-- <h3 class="post-subtitle">
                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
                         Class <script type="text/javascript">document.write(cday+1)</script>: Key-Value Store for JSON and CSV
                      </h3>
@@ -537,54 +647,79 @@ Filter Towards Efficient Read for LSM-tree based KV Stores</a>, HotStorage 2018<
 
 
 
-                     <h2 class="text-center">C. Indexing</h2>
+                    <h2 class="text-center">C. Indexing</h2>
 
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Introduction to Indexing, Trees & Tries
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content"> In this class the instructor will provide the necessary background to indexing. We will describe the most common design principles and decisions of index structures and provide the background needed for diving into the details of cutting-edge indexing papers.
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Introduction to Indexing, Trees & Tries
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content"> In this class the instructor will provide the necessary background to indexing. We will describe the most common design principles and decisions of index structures and provide the background needed for diving into the details of cutting-edge
+                        indexing papers.
 
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class11.pdf">Slides</a> </li>
-                     <!-- <li><a target="_blank" tabindex="-1" href="./slides/CAS-CS561-Class9.pdf">Slides</a> </li> -->
-                        <li>(B) <a href="https://arxiv.org/abs/1812.07527">LSM-based Storage Techniques: A Survey</a>, arXiv 2018</li>
-                         <!-- <li class="tech-question"><font
+                        <h4>Readings</h4>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class11.pdf">Slides</a> </li>
+                            <!-- <li><a target="_blank" tabindex="-1" href="./slides/CAS-CS561-Class9.pdf">Slides</a> </li> -->
+                            <li>(B) <a href="https://arxiv.org/abs/1812.07527">LSM-based Storage Techniques: A Survey</a>, arXiv 2018</li>
+                            <!-- <li class="tech-question"><font
                          color="#cc0000"><strong>Technical
                          Question:</strong></font> <em
                          class="tech-question-text">What is the key design idea
                          of Dostoevsky to address the limitations of existing
                          merge policies? How does this design affect the
                          performance of Dostoevsky?</em> </li> -->
-                        <li>(B) <a href="https://dl.acm.org/doi/10.1561/1900000028">Modern B-Tree Techniques</a>, Foundations and Trends in Databases 2011</li>
-                        <li>(B) <a href="http://dl.acm.org/citation.cfm?id=320521.320530">Prefix B-trees</a>, TODS 1977</li>
-                        <!-- <li>(B) <a href="https://db.in.tum.de/~leis/papers/ART.pdf">The Adaptive Radix Tree: ARTful Indexing for Main-Memory Databases</a>, ICDE 2013</li> -->
-                        <li>(B) <a href="http://www.vldb.org/conf/1998/p476.pdf">Small Materialized Aggregates: A Light Weight Index Structure for Data Warehousing</a>, VLDB 1998</li>
-                        <li>(B) <a href="https://www.comp.nus.edu.sg/~chancy/sigmod98.pdf">Bitmap Index Design and Evaluation</a>, SIGMOD 1998</li>
-                        <li>(B) <a href="https://homepages.cwi.nl/~manegold/COMMIT/imprints.pdf">Column imprints: a secondary index structure</a>, SIGMOD 2013</li>
-                        <li>(B) <a href="http://cidrdb.org/cidr2007/papers/cidr07p07.pdf">Database Cracking</a>, CIDR 2007</li>
-                    </ul>
-                     </p>
+                            <li>(B) <a href="https://dl.acm.org/doi/10.1561/1900000028">Modern B-Tree Techniques</a>, Foundations and Trends in Databases 2011</li>
+                            <li>(B) <a href="http://dl.acm.org/citation.cfm?id=320521.320530">Prefix B-trees</a>, TODS 1977</li>
+                            <!-- <li>(B) <a href="https://db.in.tum.de/~leis/papers/ART.pdf">The Adaptive Radix Tree: ARTful Indexing for Main-Memory Databases</a>, ICDE 2013</li> -->
+                            <li>(B) <a href="http://www.vldb.org/conf/1998/p476.pdf">Small Materialized Aggregates: A Light Weight Index Structure for Data Warehousing</a>, VLDB 1998</li>
+                            <li>(B) <a href="https://www.comp.nus.edu.sg/~chancy/sigmod98.pdf">Bitmap Index Design and Evaluation</a>, SIGMOD 1998</li>
+                            <li>(B) <a href="https://homepages.cwi.nl/~manegold/COMMIT/imprints.pdf">Column imprints: a secondary index structure</a>, SIGMOD 2013</li>
+                            <li>(B) <a href="http://cidrdb.org/cidr2007/papers/cidr07p07.pdf">Database Cracking</a>, CIDR 2007</li>
+                        </ul>
+                    </p>
 
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Adaptive Radix Trees
-                        <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <strong>Concepts</strong>: tree indexing, tries, radix, adaptive radix trees
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class12.pdf" >Slides</a> </li>
-                         <li><strong>(P)</strong> <a href="https://db.in.tum.de/~leis/papers/ART.pdf">The Adaptive Radix Tree: ARTful Indexing for Main-Memory Databases</a>, ICDE 2013 (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>) </li>
-                         <!-- <li class="tech-question"><font color="#cc0000"><strong>Technical Question:</strong></font> <em class="tech-question-text">One primary issue with Radix trees is that- with long keys, the space consumption per key can be significantly large even with the implicit prefix compression of keys. How does ART addresses this issue? In other words, what techniques are used by ART to decrease the height by reducing the number of nodes?</em> </li> -->
-                     </ul>
-                     </p>
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Adaptive Radix Trees
+                        <font class="red">(student presentation
+                            <script type="text/javascript">
+                                document.write("S" + (studpres++));
+                            </script>)</font>
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content">
+                        <strong>Concepts</strong>: tree indexing, tries, radix, adaptive radix trees
+                        <h4>Readings</h4>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class12.pdf">Slides</a> </li>
+                            <li><strong>(P)</strong> <a href="https://db.in.tum.de/~leis/papers/ART.pdf">The Adaptive Radix Tree: ARTful Indexing for Main-Memory Databases</a>, ICDE 2013 (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>)
+                            </li>
+                            <!-- <li class="tech-question"><font color="#cc0000"><strong>Technical Question:</strong></font> <em class="tech-question-text">One primary issue with Radix trees is that- with long keys, the space consumption per key can be significantly large even with the implicit prefix compression of keys. How does ART addresses this issue? In other words, what techniques are used by ART to decrease the height by reducing the number of nodes?</em> </li> -->
+                        </ul>
+                    </p>
 
-<!--
+                    <!--
                      <h3 class="post-subtitle">
                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
                         Class <script type="text/javascript">document.write(cday+1)</script>: Zonemaps &amp; Data Skipping <font class="red">(student presentation)</font>
@@ -605,40 +740,65 @@ Filter Towards Efficient Read for LSM-tree based KV Stores</a>, HotStorage 2018<
 
 
                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Adaptive Indexing &amp; Cracking <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Adaptive Indexing &amp; Cracking
+                        <font class="red">(student presentation
+                            <script type="text/javascript">
+                                document.write("S" + (studpres++));
+                            </script>)</font>
                     </h3>
-                    <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
                     <p class="post-content">
-                    <strong>Concepts</strong>: adaptive indexing, cracking, stochastic cracking, hybrid cracking, scan, sort and binary search, adaptive adaptive indexing,
-                    radix partitioning, TLB, software managed buffers, non-temporal streaming stores, partitioning fanout, skew, adaptive indexing convergence rate, simulated annealing,
-                    uniform/normal/zipfian distribution
-                    <h4>Readings</h4>
-                    <ul class="mylist">
-                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class13.pdf">Slides</a> </li>
-                        <li><strong>(P)</strong> <a href="https://bigdata.uni-saarland.de/publications/Adaptive_Adaptive_Indexing_ICDE18.pdf">Adaptive Adaptive Indexing</a>, ICDE 2018 [<a href="https://bigdata.uni-saarland.de/publications/Adaptive_Adaptive_Indexing_ICDE18_slides.pdf" target="_blank">conf. slides</a>]</li>
-                        <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">The authors of adaptive adaptive indexing show that their technique performs well in multiple generic workloads. What type of workloads would adaptive adaptive indexing not work well for and why? Can you think of examples of reads or updates that would be inefficient in this schema?</em> </li>
-                        <li> (B) <a href="https://dl.acm.org/citation.cfm?id=1559878">Self-organizing Tuple Reconstruction in Column-stores</a>, SIGMOD 2009</li>
+                        <strong>Concepts</strong>: adaptive indexing, cracking, stochastic cracking, hybrid cracking, scan, sort and binary search, adaptive adaptive indexing, radix partitioning, TLB, software managed buffers, non-temporal streaming stores,
+                        partitioning fanout, skew, adaptive indexing convergence rate, simulated annealing, uniform/normal/zipfian distribution
+                        <h4>Readings</h4>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class13.pdf">Slides</a> </li>
+                            <li><strong>(P)</strong> <a href="https://bigdata.uni-saarland.de/publications/Adaptive_Adaptive_Indexing_ICDE18.pdf">Adaptive Adaptive Indexing</a>, ICDE 2018 [<a href="https://bigdata.uni-saarland.de/publications/Adaptive_Adaptive_Indexing_ICDE18_slides.pdf"
+                                    target="_blank">conf. slides</a>]</li>
+                            <li class="tech-question">
+                                <font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">The authors of adaptive adaptive indexing show that their technique performs well in multiple generic workloads. What type of workloads would adaptive adaptive indexing not work well for and why? Can you think of examples of reads or updates that would be inefficient in this schema?</em>                                </li>
+                            <li> (B) <a href="https://dl.acm.org/citation.cfm?id=1559878">Self-organizing Tuple Reconstruction in Column-stores</a>, SIGMOD 2009</li>
                         </ul>
                     </p>
 
                     <h3 class="post-subtitle">
-                       <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                       Class <script type="text/javascript">document.write(cday+1)</script>: Guest Lecture on Sortedness-Aware Indexing: <a style="color:#0048AA" href="https://ramananeesh.github.io/" target="_blank">Aneesh Raman</a>
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Guest Lecture on Sortedness-Aware Indexing: <a style="color:#0048AA" href="https://ramananeesh.github.io/" target="_blank">Aneesh Raman</a>
                     </h3>
 
-                    <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
                     <p class="post-content">
 
-                       <h4>Readings</h4>
+                        <h4>Readings</h4>
                         <ul class="mylist">
-                          <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class14.pdf">Slides</a> </li>
-                          <li><strong>(P)</strong> <a href="https://cs-people.bu.edu/mathan/publications/icde23-raman.pdf">Indexing for Near-Sorted Data</a>, ICDE 2023</li>
-                          <li>(B) <a href="https://cs-people.bu.edu/mathan/publications/tpctc22-raman.pdf">BoDS: A Benchmark on Data Sortedness</a>, TPCTC 2022, [<a href="https://www.youtube.com/watch?v=sb6jw0zz-CU">conf.present.video</a>]</li>
-                           </ul>
-                        </p>
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class14.pdf">Slides</a> </li>
+                            <li><strong>(P)</strong> <a href="https://cs-people.bu.edu/mathan/publications/icde23-raman.pdf">Indexing for Near-Sorted Data</a>, ICDE 2023</li>
+                            <li>(B) <a href="https://cs-people.bu.edu/mathan/publications/tpctc22-raman.pdf">BoDS: A Benchmark on Data Sortedness</a>, TPCTC 2022, [<a href="https://www.youtube.com/watch?v=sb6jw0zz-CU">conf.present.video</a>]</li>
+                        </ul>
+                    </p>
 
-                     <!-- <h3 class="post-subtitle">
+                    <!-- <h3 class="post-subtitle">
                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
                         Class <script type="text/javascript">document.write(cday+1)</script>: Updateable Bitmaps <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
                      </h3>
@@ -680,20 +840,30 @@ Filter Towards Efficient Read for LSM-tree based KV Stores</a>, HotStorage 2018<
                     <h2 class="text-center">D. Modern Hardware</h2>
 
                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Modern hardware trends
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content"> In this class the instructor will discuss modern hardware trends that drive system and index design with respect to storage, memories, and processing.
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Modern hardware trends
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content"> In this class the instructor will discuss modern hardware trends that drive system and index design with respect to storage, memories, and processing.
 
-                     <h4>Readings</h4>
-                     <ul>
-                     <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class15.pdf" >Slides</a> </li>
-                     <!-- <li>(B) <a href="https://dl.acm.org/doi/10.1145/1989323.1989455" target="_blank">Data Management Over Flash Memory</a>, SIGMOD 2011 </li> -->
-                     </ul>
-                     </p>
+                        <h4>Readings</h4>
+                        <ul>
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class15.pdf">Slides</a> </li>
+                            <!-- <li>(B) <a href="https://dl.acm.org/doi/10.1145/1989323.1989455" target="_blank">Data Management Over Flash Memory</a>, SIGMOD 2011 </li> -->
+                        </ul>
+                    </p>
 
-                     <!-- <div class="alert alert-danger" role="alert">
+                    <!-- <div class="alert alert-danger" role="alert">
                         <h3 class="post-subtitle" id="research-talk-2" style="margin:0px">
                             Class <script type="text/javascript">document.write(cday+1)</script>: Guest Lecture on TBA
                             <em>Guest Lecture <script type="text/javascript">document.write((rday++)+1)</script>: TBA</em>
@@ -717,409 +887,366 @@ Filter Towards Efficient Read for LSM-tree based KV Stores</a>, HotStorage 2018<
 
 
                     <h3 class="post-subtitle">
-                       <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                       Class <script type="text/javascript">document.write(cday+1)</script>: Guest Lecture on Parametric I/O Model: <a style="color:#0048AA" href="https://cs-people.bu.edu/papon/" target="_blank">Tarikul Islam Papon</a>
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Guest Lecture on Parametric I/O Model: <a style="color:#0048AA" href="https://cs-people.bu.edu/papon/" target="_blank">Tarikul Islam Papon</a>
                     </h3>
-                    <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
                     <p class="post-content">
 
-                       <h4>Readings</h4>
+                        <h4>Readings</h4>
                         <ul class="mylist">
-                          <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class16.pdf" >Slides</a> </li>
-                          <li><strong>(P)</strong> <a href="https://cs-people.bu.edu/mathan/publications/icde23-papon.pdf">ACEing the Bufferpool Management Paradigm for Modern Storage Devices</a>, ICDE 2023</li>
-                          <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text"> Consider you have three SSDs with the following asymmetry values: (i) &#945; = 2.0, (ii) &#945; = 4.0, (iii) &#945; = 6.0. Your workload contains 50% writes with a predictive pattern.
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class16.pdf">Slides</a> </li>
+                            <li><strong>(P)</strong> <a href="https://cs-people.bu.edu/mathan/publications/icde23-papon.pdf">ACEing the Bufferpool Management Paradigm for Modern Storage Devices</a>, ICDE 2023</li>
+                            <li class="tech-question">
+                                <font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text"> Consider you have three SSDs with the following asymmetry values: (i) &#945; = 2.0, (ii) &#945; = 4.0, (iii) &#945; = 6.0. Your workload contains 50% writes with a predictive pattern.
                             Which device will have the highest speedup after implementing ACE bufferpool and why? Also, will you use any prefetcher? Justify your answer.</em> </li>
-                           <li> (B) <a href="http://cs-people.bu.edu/mathan/publications/damon21-papon.pdf">A Parametric I/O Model for Modern Storage Devices</a>, DaMon 2021 [<a href="https://www.youtube.com/watch?v=wBhxFxVbh3I" target="_blank">conf. present. video</a>, <a href="http://disc-projects.bu.edu/parametric-io-model/">DEMO</a>]</li>
-                           </ul>
-                        </p>
+                            <li> (B) <a href="http://cs-people.bu.edu/mathan/publications/damon21-papon.pdf">A Parametric I/O Model for Modern Storage Devices</a>, DaMon 2021 [<a href="https://www.youtube.com/watch?v=wBhxFxVbh3I" target="_blank">conf. present. video</a>,
+                                <a href="http://disc-projects.bu.edu/parametric-io-model/">DEMO</a>]</li>
+                        </ul>
+                    </p>
 
 
 
 
 
                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: HTAP Systems <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: HTAP Systems
+                        <font class="red">(student presentation
+                            <script type="text/javascript">
+                                document.write("S" + (studpres++));
+                            </script>)</font>
                     </h3>
-                    <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
                     <p class="post-content">
-                    <strong>Concepts</strong>: key-value stores, point queries, blind updates, read-modify-write, locality, immutable file, mutable file, append-only systems, in-place updates
-                    <h4>Readings</h4>
-                    <ul class="mylist">
-                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class17.pdf" >Slides</a> </li>
-                        <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?id=3196898">FASTER: A Concurrent Key-Value Store with In-Place Updates</a>, SIGMOD 2018 [<a href="https://www.youtube.com/watch?v=68YBpitMrMI" target="_blank">conf. present. video</a>] (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>)</li>
-                    </ul>
+                        <strong>Concepts</strong>: key-value stores, point queries, blind updates, read-modify-write, locality, immutable file, mutable file, append-only systems, in-place updates
+                        <h4>Readings</h4>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class17.pdf">Slides</a> </li>
+                            <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?id=3196898">FASTER: A Concurrent Key-Value Store with In-Place Updates</a>, SIGMOD 2018 [<a href="https://www.youtube.com/watch?v=68YBpitMrMI" target="_blank">conf. present. video</a>]
+                                (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>)</li>
+                        </ul>
                     </p>
 
                     <h3 class="post-subtitle">
-                       <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                       Class <script type="text/javascript">document.write(cday+1)</script>: SSD-Conscious Designs
-                       <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: SSD-Conscious Designs
+                        <font class="red">(student presentation
+                            <script type="text/javascript">
+                                document.write("S" + (studpres++));
+                            </script>)</font>
                     </h3>
-                    <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
                     <h4>Readings</h4>
-                   <ul class="mylist">
-                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class18.pdf" >Slides </a> </li>
+                    <ul class="mylist">
+                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class18.pdf">Slides </a> </li>
                         <!-- <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/10.1145/3318464.3389705">Pump Up the Volume: Processing Large Data on GPUs with Fast Interconnects </a>, SIGMOD 2020 [<a href="https://www.youtube.com/watch?v=HAFBkNLGOhI">conf. talk</a>, <a href="https://www.youtube.com/watch?v=fRaH4h7-45s">long talk</a>]</li>
                         <li class="tech-question"><strong>Technical Question:</strong> <em>
                             TBA
                        </em></li> -->
-                       <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/10.1145/3538643.3539741">Lifetime-leveling LSM-tree compaction for ZNS SSD</a>, HotStorage 2022 [<a href="https://www.hotstorage.org/2022/slides/hotstorage22-paper7-presentation_slides.pdf" target="_blank">Slides</a>]</li>
+                        <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/10.1145/3538643.3539741">Lifetime-leveling LSM-tree compaction for ZNS SSD</a>, HotStorage 2022 [<a href="https://www.hotstorage.org/2022/slides/hotstorage22-paper7-presentation_slides.pdf"
+                                target="_blank">Slides</a>]</li>
 
                     </ul>
                     </p>
 
 
                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Data Processing with GPUs <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Data Processing with GPUs
+                        <font class="red">(student presentation
+                            <script type="text/javascript">
+                                document.write("S" + (studpres++));
+                            </script>)</font>
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content">
                         <strong>Concepts</strong>: GPUs
+                        <h4>Readings</h4>
+                        <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class19.pdf">Slides </a> </li>
+                            <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/10.1145/3318464.3389705">Pump Up the Volume: Processing Large Data on GPUs with Fast Interconnects</a>, SIGMOD 2020 [<a href="https://www.youtube.com/watch?v=HAFBkNLGOhI">conf. present. video</a>,
+                                <a href="https://www.youtube.com/watch?v=fRaH4h7-45s">long talk</a>]</li>
+                            <li class="tech-question">
+                                <font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">This paper investigates how the fast interconnect such as NVLink 2.0 can solve the data transfer bottleneck between CPUs and GPUs. What are the disadvantages of current interconnect and the benefits of NVLink 2.0 besides speed?</em>                                </li>
+                            <li>(B) <a href="https://doi.org/10.1145/3318464.3380595">A Study of the Fundamental Performance Characteristics of GPUs and CPUs for Database Analytics </a>, SIGMOD 2020 [<a href="https://vimeo.com/441072118#t=1079s">conf. present. video</a>]</li>
+                        </ul>
+                    </p>
+
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Guest Lecture on Cosine: <a style="color:#0048AA" href="https://chatterjeesubarna.github.io/" target="_blank">Subarna Chatterjee</a>
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
                     <h4>Readings</h4>
                     <ul class="mylist">
-                         <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class19.pdf" >Slides</a> </li>
-                         <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/10.1145/3318464.3389705">Pump Up the Volume: Processing Large Data on GPUs with Fast Interconnects</a>, SIGMOD 2020 [<a href="https://www.youtube.com/watch?v=HAFBkNLGOhI">conf. present. video</a>, <a href="https://www.youtube.com/watch?v=fRaH4h7-45s">long talk</a>]</li>
-                         <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">This paper investigates how the fast interconnect such as NVLink 2.0 can solve the data transfer bottleneck between CPUs and GPUs. What are the disadvantages of current interconnect and the benefits of NVLink 2.0 besides speed?</em> </li>
-                        <li>(B) <a href="https://doi.org/10.1145/3318464.3380595">A Study of the Fundamental Performance Characteristics of GPUs and CPUs for Database Analytics </a>, SIGMOD 2020 [<a href="https://vimeo.com/441072118#t=1079s">conf. present. video</a>]</li>
-                     </ul>
-                     </p>
+                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class20.pdf">Slides </a> </li>
+                        <li><strong>(P)</strong> <a href="https://chatterjeesubarna.github.io/files/cosine.pdf">Cosine: A Cloud-Cost Optimized Self-Designing Key-Value Storage Engine</a>, VLDB 2022 </li>
+                        <!-- <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text"> TBD</em> </li> -->
+                        <li>(B) <a href="https://www.cidrdb.org/cidr2019/papers/p143-idreos-cidr19.pdf">Design Continuums and the Path Toward Self-Designing Key-Value Stores that Know and Learn</a>, CIDR 2019 </li>
+                        <li>(B) <a href="https://dl.acm.org/doi/10.1145/3183713.3199671">The Data Calculator: Data Structure Design and Cost Synthesis From First Principles, and Learned Cost Models</a>, SIGMOD 2018 </li>
 
-                     <h3 class="post-subtitle">
-                          <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                          Class <script type="text/javascript">document.write(cday+1)</script>: Guest Lecture on Cosine: <a style="color:#0048AA" href="https://chatterjeesubarna.github.io/" target="_blank">Subarna Chatterjee</a>
-                       </h3>
-                       <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                       <h4>Readings</h4>
-                      <ul class="mylist">
-                           <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/CAS-CS561-Class16-student-presentation.pdf" >Discussion Slides</a> </li> -->
-                           <li><strong>(P)</strong> <a href="https://chatterjeesubarna.github.io/files/cosine.pdf">Cosine: A Cloud-Cost Optimized Self-Designing Key-Value Storage Engine</a>, VLDB 2022 </li>
-                           <!-- <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text"> TBD</em> </li> -->
-                           <li>(B) <a href="https://www.cidrdb.org/cidr2019/papers/p143-idreos-cidr19.pdf">Design Continuums and the Path Toward Self-Designing Key-Value Stores that Know and Learn</a>, CIDR 2019 </li>
-                           <li>(B) <a href="https://dl.acm.org/doi/10.1145/3183713.3199671">The Data Calculator: Data Structure Design and Cost Synthesis From First Principles, and Learned Cost Models</a>, SIGMOD 2018 </li>
-
-                          </ul>
-                       </p>
-
-                     <h2 class="text-center">E. Serverless Computing</h2>
-
-
-                     <h3 class="post-subtitle">
-                         <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                         Class <script type="text/javascript">document.write(cday+1)</script>: The Serverless Paradigm <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
-                      </h3>
-                      <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                      <p class="post-content">
-                         <strong>Concepts</strong>: cloud-based data management, serverless
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                          <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/CAS-CS561-Class16-student-presentation.pdf" >Discussion Slides</a> </li> -->
-                          <li><strong>(P)</strong> <a href="https://doi.org/10.1145/3318464.3389758">Lambada: Interactive Data Analytics on Cold Data Using Serverless Cloud Infrastructure</a>, SIGMOD 2020 [<a href="https://www.youtube.com/watch?v=BubXdEhn4k8">conf. present. video</a>] (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>)</li>
-                         <li>(B) <a href="https://doi.org/10.1145/3318464.3380609">Starling: A Scalable Query Engine on Cloud Functions</a>, SIGMOD 2020 [<a href="https://www.youtube.com/watch?v=FE9CnDEPBkI">long talk</a>]</li>
-                      </ul>
-                      </p>
-
-                      <h3 class="post-subtitle">
-                          <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                          Class <script type="text/javascript">document.write(cday+1)</script>: The Execution Process In Serverless Computing <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
-                       </h3>
-                       <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                       <h4>Readings</h4>
-                      <ul class="mylist">
-                           <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/CAS-CS561-Class16-student-presentation.pdf" >Discussion Slides</a> </li> -->
-                           <li><strong>(P)</strong> <a href="https://www.vldb.org/pvldb/vol15/p1591-burckhardt.pdf">Netherite: Efficient Execution of Serverless Workflows</a>, VLDB 2022</li>
-                          </ul>
-                       </p>
-
-                       <h2 class="text-center">F. ML For Data Systems</h2>
-                       <h3 class="post-subtitle">
-                          <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                          Class <script type="text/javascript">document.write(cday+1)</script>: Guest Lecture on Learned Index: <a style="color:#0048AA" href="https://rmarcus.info/" target="_blank">Ryan Marcus</a>
-                       </h3>
-                       <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                       <h4>Readings</h4>
-                      <ul class="mylist">
-                           <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/CAS-CS561-Class16-student-presentation.pdf" >Discussion Slides</a> </li> -->
-                           <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/abs/10.1145/3533702.3534912">LSI: A Learned Secondary Index Structure</a>, SIGMOD 2022 </li>
-                           <li> (B) <a href="https://vldb.org/pvldb/vol14/p1-marcus.pdf">Benchmarking Learned Indexes</a>, VLDB 2021</li>
-                          </ul>
-                       </p>
-
-                       <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Guest Lecture on Relational Memory: <a style="color:#0048AA" href="https://cs-people.bu.edu/jmun/" target="_blank">JuHyoung Mun</a>
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <ul class="mylist">
-                          <!-- <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/CAS-CS561-Class17-student-presentation.pdf" >Discussion Slides</a> </li> -->
-                          <li><strong>(P)</strong> <a href="https://openproceedings.org/2023/conf/edbt/paper-177.pdf">Relational Memory: Native In-Memory Accesses on Rows and Columns</a>, EDBT 2023 </li>
-
-                           <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text"> TBD</em> </li>
-                          </ul>
-                      </p>
-
-
-
-
-                    <!-- <h3 class="post-subtitle">
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Indexng for RDMA Networks
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <ul class="mylist">
-                         <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/10.1145/3299869.3300081">Designing Distributed Tree-based Index Structures for Fast RDMA-capable Networks</a>, SIGMOD 2019 (paper for <strong class="red">REVIEW</strong>) [<a href="https://av.tib.eu/media/42976" target="_blank">conf. present. video</a>]</li>
-                     </ul>
-                     </p> -->
-
-                     <!-- <h2 class="text-center">E. Scientific Data Management</h2>
-
-
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: In-Situ Data Processing
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <strong>Concepts</strong>: in-situ query processing, raw data files, adaptive partitioning, fine-grained indexing, query-based vs. homogenous partitioning,
-                     implicit clustering, eviction policy, workload shift, memory consumption
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                        <li><strong>(P)</strong> <a href="http://www.vldb.org/pvldb/vol10/p1106-olma.pdf">Slalom: Coasting Through Raw Data via Adaptive Partitioning and Indexing</a>, VLDB 2017 </li>
-                        <li> (B) <a href="https://dl.acm.org/citation.cfm?id=2213864">NoDB: Efficient Query Execution on Raw Data Files</a>, SIGMOD 2012</li>
-                     </ul>
-                     </p> -->
-
-                     <!-- <h3 class="post-subtitle">
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Multi-dimensional Data Management <font class="red">(student presentation <script type="text/javascript">document.write("S"+(studpres++)); </script>)</font>
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <strong>Concepts</strong>: array management systems, multi-dimensional arrays, storage manager, tiles, thread-safe, process-safe, atomicity,
-                     dense vs. sparse arrays, global cell order, fragments, dense vs. sparse fragments, consolidation
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                        <li><strong>(P)</strong> <a href="http://www.vldb.org/pvldb/vol10/p349-papadopoulos.pdf">The TileDB Array Data Storage Manager</a>, VLDB 2017 [<a href="https://www.slideshare.net/PyData/the-tiledb-array-data-storage-manager-stavros-papadopoulos-jake-bolewski" target="_blank">wide auidence slides</a>]</li>
-                        <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">TileDB: Global cell order can significantly impact application performance. Explain the benefit from global cell order and the setting (space tile extents and tile/cell order) that can minimize the read cost by using an example. </em> </li>
-            			<li> (B) <a href="https://dl.acm.org/citation.cfm?id=1807271">Overview of SciDB: Large Scale Array Storage, Processing and Analysis</a>, SIGMOD 2010</li>
-
-                       </em></li>
-                     </ul>
-                     </p> -->
-
-<!--
-                     <h2 class="text-center">F. Distributed Data Management</h2>
-
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Global Distributed Systems
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <strong>Concepts</strong>: global-scale distributed database, concurrency control, Paxos, data sharding, external consistency, TrueTime API
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/13.Spanner_AneeshRaman_ThanasisFilippidis.pdf">Discussion Slides</a> </li>
-                         <li><strong>(P)</strong> <a href="https://www.usenix.org/system/files/conference/osdi12/osdi12-final-16.pdf">Spanner: Google's Globally-Distributed Database</a>, OSDI 2012 (paper for <strong class="red">REVIEW</strong>) [<a href="https://www.usenix.org/conference/osdi12/technical-sessions/presentation/corbett" target="_blank">public slides/video</a>]</li>
-                         <li> (B) <a href="http://cidrdb.org/cidr2011/Papers/CIDR11_Paper32.pdf">Megastore: Providing Scalable, Highly Available Storage for Interactive Services</a>, CIDR 2011</li>
-                     </ul>
-                     </p> -->
-
-
-
-                     <!-- <div class="alert alert-danger" role="alert">
-                        <h3 class="post-subtitle" id="research-talk-3" style="margin:0px">
-                            <em>Guest Lecture <script type="text/javascript">document.write((rday++)+1)</script>: TBA</em>
-                      </h3>
-                      <p style="border:0px; margin:0px;">&nbsp;&nbsp;&nbsp;from <a href="https://jialinding.github.io/" target="_blank">Jialin Ding</a>, MIT</p>
-                      <p style="border:0px; margin:0px;">Part of <strong> Machine Learning for Data Systems</strong></p>
-                         <p class="" style="text-decoration: underline;"><em><strong>Date &amp; Time:</strong> Outside class schedule: Friday, April 10th at 11am.</em> </p>
-                         <p class="" style="text-decoration: underline;"><a href="https://piazza.com/class/k5ffzklkd1z54v?cid=58" target="_blank">Click here for the recording!</a></p>
-                         <p class="post-content"><strong>Abstract:</strong> Scanning and filtering over multi-dimensional tables are key operations in modern analytical database engines. To optimize the performance of these operations, databases often create clustered indexes over a single dimension or multi-dimensional indexes such as R-Trees, or use complex sort orders (e.g., Z-ordering). However, these schemes are often hard to tune and their performance is inconsistent across different datasets and queries.
-                         In this talk, I will present Flood, a multi-dimensional in-memory read-optimized index that automatically adapts itself to a particular dataset and workload by jointly optimizing the index structure and data storage layout. Flood achieves up to three orders of magnitude faster performance for range scans with predicates than state-of-the-art multi-dimensional indexes or sort orders on real-world datasets and workloads. Our work serves as a building block towards an end-to-end learned database system. Our paper on Flood will appear at SIGMOD 2020.
-                        I will also talk about our continuing work on extending the ideas of Flood to address real-world challenges of indexing multi-dimensional data such as data correlation, non-uniform queries, and categorical attributes.</p>
-                         <p class="post-content"><strong>Bio:</strong> Jialin Ding is a second-year PhD student in the MIT Data Systems Group, where he is advised by Prof. Tim Kraska. His research focuses broadly on the application of machine learning to data systems. He also collaborates with Umar Farooq Minhas and the Database Group at Microsoft Research on learned data structures. Prior to MIT, Jialin was an undergraduate at Stanford University, where he worked on data-intensive systems with Prof. Peter Bailis at part of Stanford DAWN.
-                         </p>
-                         <p>
-                         <h4 style="color:black">Readings</h4>
-                         <ul class="mylist">
-                             <li style="color:black"><a style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/JialinDing_LearnedMultidimensionalIndexes.pdf">Slides from Jialin Ding</a></li>
-                         </ul>
-                     </p>
-                    </div> -->
-
-                     <!-- <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Map/Reduce: Data Management at Scale
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <strong>Concepts</strong>: Map/Reduce, distributed file systems, resource management, positional delta trees, SQL-on-Map/Reduce, massively parallel processing database management systems (MPP DBMS), user-defined functions (UDF), encryption, authentication, user role management, elasticity, data warehouse, fact table, merge-join, partitioning attributes across (PAX) layout, message passing interface (MPI), two-phase commit (2PC), ACID
-                     </p>
-                     <p class="post-content">
-                     <strong>Systems/Approaches</strong>: Hadoop, Spark, YARN, HDFS Hive, Impala, Vectorwise, Actian Vector
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./student_slides/14.VectorH_XiaotongNiu_XiaoyanGe.pdf">Discussion Slides</a> </li>
-                         <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?id=2903742">VectorH: Taking SQL-on-Hadoop to the Next Level</a>, SIGMOD 2016 (paper for <strong class="red">TECHNICAL QUESTION</strong>)</li>
-                         <li class="tech-question"><strong>Technical Question:</strong> <em>
-                            VectorH uses Vectorwise as a springboard to
-                            jumpstart its development. In particular, the query
-                            optimizer of Vectorwise makes the big assumption
-                            that all workers can read everything with an equal
-                            IO cost. With VectorH, these assumptions are
-                            invalidated. How do the authors redesign the query
-                            optimizer to work with this new constraint and can
-                            you think of how they modeled the new cost? What
-                            benefits does VectorH receive from their solution?
-                        </em></li>
-                         <li> (B) <a href="http://www.vldb.org/pvldb/vol7/p1295-floratou.pdf">SQL-on-Hadoop: Full Circle Back to Shared-Nothing Database Architectures</a>, VLDB 2014</li>
-                         <li> (B) <a href="http://www.vldb.org/pvldb/2/vldb09-861.pdf">HadoopDB: An Architectural Hybrid of MapReduce and DBMS Technologies for Analytical Workloads</a>, VLDB 2009</li>
-                         <li> (B) <a href="https://dl.acm.org/doi/10.1145/1327452.1327492">MapReduce: simplified data processing on large clusters</a>, CACM 2008</li>
-                     </ul>
-                     </p> -->
-
-                     <!-- <h2 class="text-center">F. Machine Learning for Data Systems</h2>
-
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Machine Learning for Data Systems
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <strong>Concepts</strong>: physical design, machine learning, tuning knobs, database administrator (DBA), OtterTune, workload characterization, k-means clustering, knob identification, automatic tuner, feature selection, linear regression model, ordinary least squares, workload mapping (dynamic vs. static), configuration recommendation
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><strong>(P)</strong> <a href="https://dl.acm.org/citation.cfm?id=3064029">Automatic Database Management System Tuning Through Large-scale Machine Learning</a>, SIGMOD 2017 [<a href="https://www.youtube.com/watch?v=OnFBoWsdJqo&t=1530" target="_blank">conf. present. video</a>]</li>
-                         <li> (B) <a href="http://www.pdl.cmu.edu/PDL-FTP/Database/p42-pavlo-cidr17.pdf">Self-Driving Database Management Systems</a>, CIDR 2017</li>
-                         <li> (B) <a href="https://doi.org/10.1145/3318464.3380579">Learning Multi-Dimensional Indexes</a>, SIGMOD 2018 [<a href="https://vimeo.com/442093133#t=1050s" target="_blank">conf. present. video</a>]</li>
-                         <li> (B) <a href="https://dl.acm.org/citation.cfm?id=3196909">The Case for Learned Index Structures</a>, SIGMOD 2018 [<a href="https://www.youtube.com/watch?v=MM33CvATm_M" target="_blank">conf. present. video</a>]</li>
-                         <li> (B) <a href="http://sites.computer.org/debull/A21mar/p3.pdf">ML-In-Databases: Assessment and Prognosis</a>, IEEE Data Engineering Bulletin, 44(1), March 2021 </li>
-                         <li> (B) <a href="http://www.vldb.org/pvldb/vol12/p1705-marcus.pdf">Neo: A Learned Query Optimizer</a>, VLDB 2019 </li>
-                         <li> (B) <a href="http://cidrdb.org/cidr2019/papers/p117-kraska-cidr19.pdf">SageDB: A Learned Database System</a>, CIDR 2019 </li>
-                         <li> (B) <a href="https://stratos.seas.harvard.edu/files/stratos/files/selfdesignedandlearnedsystems.pdf">From Auto-tuning One Size Fits All to Self-designed and Learned Data-intensive Systems</a>, SIGMOD 2019 </li>
-
-                     </ul>
-                     </p>
-
-
-
-
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Learned Indexes
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/10.1145/3318464.3389711">Alex: An Updatable Adaptive Learned Index</a>, SIGMOD 2020 [<a href="https://www.youtube.com/watch?v=wVxbOcwYZ8I" target="_blank">conf. present. video</a>]</li>
-                         <li>(B) <a href="https://dl.acm.org/doi/10.1145/3299869.3319860">FITing-Tree: A Data-aware Index Structure</a>, SIGMOD 2019 [<a href="https://av.tib.eu/media/42914" target="_blank">conf. present. video</a>]</li>
-                         <li>(B) <a href="http://cs.brown.edu/people/acrotty/pubs/cidr2021_paper20.pdf">Hist-Tree: Those Who Ignore It Are Doomed to Learn</a>, CIDR 2021 [<a href="https://www.youtube.com/watch?v=ruELVKr54yI" target="_blank">conf. present. video</a>]</li>
-                      </ul>
-                     </p> -->
-
-                     <!-- <h3 class="post-subtitle">
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Learned Query Optimization
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                     <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><strong>(P)</strong> <a href="http://www.vldb.org/pvldb/vol12/p1705-marcus.pdf">Neo: A Learned Query Optimizer</a>, PVLDB 2019 (paper for <strong class="red">REVIEW</strong>)</li>
-                     </ul>
-                     </p> -->
-
-                     <!-- <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Learned Query Evaluation
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                      <h4>Readings</h4>
-                     <ul class="mylist">
-                         <li><strong>(P)</strong> <a href="http://wrap.warwick.ac.uk/115961/7/WRAP-DBEst-revisiting-approximate-query-processing-engines-machine-learning-models-Triantafillou-2019.pdf">DBEst: Revisiting Approximate Query Processing Engines with Machine Learning Models</a>, SIGMOD 2019 [<a href="https://av.tib.eu/media/42909" target="_blank">conf. present. video</a>]</li>
-			 <li class="tech-question"><font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text">DBEst: The authors explain that DBEst uses models, unlike other competing AQP approaches. Explain how models are built and how they can answer aggregate functions. </em> </li>
                     </ul>
-                     </p> -->
+                    </p>
 
-       <!-- <div class="alert alert-danger" role="alert"> -->
-                        <!-- <h3 class="post-subtitle" id="research-talk-2" style="margin:0px">
-                            <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                            Class <script type="text/javascript">document.write(cday+1)</script>: Guest Lecture on "Building a Healthcare Computational Engine: The case for purpose-built systems"
-                      </h3>
-                      <p style="border:0px; margin:0px;">&nbsp;&nbsp;&nbsp;from <a href="https://www.linkedin.com/in/angelok1/" target="_blank">Angelo Kastroulis</a>, Ballista Technology Group</p>
-                      <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                         <p class="post-content"><strong>Bio:</strong> Angelo is a data scientist, author, speaker, engineer, podcaster,
-                            entrepreneur, and inventor. He has served in a variety of executive positions (CTO, COO, CEO) in health IT,
-                            consulting, and fintech before founding the consulting firm Carrera Group. Along the way, he has contributed to
-                            several health standards.
-                            Angelo received his graduate degree from Harvard University where he studied high-performance
-                                computing and artificial intelligence. His research in the Harvard Data Systems Laboratory
-                                focused on methods of artificial intelligence that enable self-tuning data systems, resulting
-                                in patents and published research.
-                            Angelo is currently CEO of Ballista Technology Group (a high-performance computing consulting
-                            firm and next generation VC) and host of the <a href="https://CountingSandShow.com" target="_blank">Counting Sand podcast</a>.
-                         </p>
-                         <p>
-                            Twitter: <a href="https://twitter.com/angelokastr" target="_blank">@angelokastr</a> <a href="https://twitter.com/ballistagroup" target="_blank">@ballistagroup</a></p> -->
-
-                    <!-- </div> -->
+                    <h2 class="text-center">E. Serverless Computing</h2>
 
 
-
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Project Presentations
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                         Project Presentations
-                     <!-- <h4>Readings</h4> -->
-                     <ul class="mylist">
-                      </ul>
-                     </p>
-
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Project Presentations
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                         Project Presentations
-                     <!-- <h4>Readings</h4> -->
-                     <ul class="mylist">
-                      </ul>
-                     </p>
-
-                     <h3 class="post-subtitle">
-                        <script type="text/javascript">document.write("<a id=\"class"+(cday+1)+"\"></a>"); </script>
-                        Class <script type="text/javascript">document.write(cday+1)</script>: Project Presentations
-                     </h3>
-                     <p class="post-meta"><script type="text/javascript"> document.write(classDay(rday+cday+cancelday));cday++;</script></p>
-                     <p class="post-content">
-                        Project Presentations
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: The Serverless Paradigm
+                        <font class="red">(student presentation
+                            <script type="text/javascript">
+                                document.write("S" + (studpres++));
+                            </script>)</font>
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content">
+                        <strong>Concepts</strong>: cloud-based data management, serverless
+                        <h4>Readings</h4>
                         <ul class="mylist">
+                            <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class21.pdf">Slides </a> </li>
+                            <li><strong>(P)</strong> <a href="https://doi.org/10.1145/3318464.3389758">Lambada: Interactive Data Analytics on Cold Data Using Serverless Cloud Infrastructure</a>, SIGMOD 2020 [<a href="https://www.youtube.com/watch?v=BubXdEhn4k8">conf. present. video</a>]
+                                (paper for <strong class="red"><script type="text/javascript">document.write("REVIEW R"+(review++)); </script></strong>)</li>
+                            <li>(B) <a href="https://doi.org/10.1145/3318464.3380609">Starling: A Scalable Query Engine on Cloud Functions</a>, SIGMOD 2020 [<a href="https://www.youtube.com/watch?v=FE9CnDEPBkI">long talk</a>]</li>
                         </ul>
-                         </p>
+                    </p>
 
-                         <h3 class="post-subtitle">
-                            <a id="awards"></a>
-                            Project Awards (by popular vote)
-                        </h3>
-                        <p class="post-meta">
-                            As a tradition for the class, the projects that attracted the most excitement among the class members are receiving awards by popular vote!
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: The Execution Process In Serverless Computing
+                        <font class="red">(student presentation
+                            <script type="text/javascript">
+                                document.write("S" + (studpres++));
+                            </script>)</font>
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <h4>Readings</h4>
+                    <ul class="mylist">
+                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class22.pdf">Slides</a> </li>
+                        <li><strong>(P)</strong> <a href="https://www.vldb.org/pvldb/vol15/p1591-burckhardt.pdf">Netherite: Efficient Execution of Serverless Workflows</a>, VLDB 2022</li>
+                    </ul>
+                    </p>
+
+                    <h2 class="text-center">F. ML For Data Systems</h2>
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Guest Lecture on Learned Index: <a style="color:#0048AA" href="https://rmarcus.info/" target="_blank">Ryan Marcus</a>
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <h4>Readings</h4>
+                    <ul class="mylist">
+                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class23.pdf">Slides</a> </li>
+                        <li><strong>(P)</strong> <a href="https://dl.acm.org/doi/abs/10.1145/3533702.3534912">LSI: A Learned Secondary Index Structure</a>, SIGMOD 2022 </li>
+                        <li> (B) <a href="https://vldb.org/pvldb/vol14/p1-marcus.pdf">Benchmarking Learned Indexes</a>, VLDB 2021</li>
+                    </ul>
+                    </p>
+
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Guest Lecture on Relational Memory: <a style="color:#0048AA" href="https://cs-people.bu.edu/jmun/" target="_blank">JuHyoung Mun</a>
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <ul class="mylist">
+                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class24.pdf">Slides</a> </li>
+                        <li><strong>(P)</strong> <a href="https://openproceedings.org/2023/conf/edbt/paper-177.pdf">Relational Memory: Native In-Memory Accesses on Rows and Columns</a>, EDBT 2023 </li>
+                        <li> (B) <a href="https://cs-people.bu.edu/mathan/publications/icde23-vision.pdf">Relational Fabric: Transparent Data Transformation</a>, ICDE 2023</li>
+
+                        <li class="tech-question">
+                            <font color="#cc0000"><strong>Technical Question <script type="text/javascript">document.write("T"+(techq++)); </script>:</strong></font> <em class="tech-question-text"> This paper proposes a specialized hardware for data transformation. What is the benefit of focusing only on the data reorganization? What else can be done to improve the performance of CPU-intensive queries?</em>                            </li>
+                    </ul>
+                    </p>
 
 
-                            </p>
-                            <h4>Awards</h4>
-                            <ul class="mylist">
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Guest Lecture on Systems for ML: <a style="color:#0048AA" href="https://scholar.harvard.edu/sanket/home" target="_blank">Sanket Purandare</a>
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <ul class="mylist">
+                        <li><a target="_blank" style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/CAS-CS561-Class25.pdf">Slides</a> </li>
+                        <!-- <li><strong>(P)</strong> <a href="https://openproceedings.org/2023/conf/edbt/paper-177.pdf">Relational Memory: Native In-Memory Accesses on Rows and Columns</a>, EDBT 2023 </li> -->
+                        <li> (B) <a href="https://proceedings.mlsys.org/paper_files/paper/2021/file/a97da629b098b75c294dffdc3e463904-Paper.pdf">Horizontally Fused Training Array: An Effective Hardware Utilization Squeezer for Trainingnovel Deep Learning Models</a>,
+                            MLSys 2021</li>
+                        <li> (B) <a href="https://dl.acm.org/doi/pdf/10.1145/3373376.3378505">Capuchin: Tensor-based GPU Memory Management for Deep Learning</a>, ASPLOS 2020</li>
+                    </ul>
+                    </p>
 
-                                <li><strong>Most Engaging Presentation:</strong> TBD </li>
-                                <li><strong>Project with Highest Technical Depth:</strong> TBD </li>
-                                <li><strong>Best Overall Project:</strong> TBD </li>
-                                <!-- <li><strong>Best Overall Project (honorable mention):</strong> xxx </li> -->
-                            </ul>
+
+
+
+                    <h2 class="text-center">Project Presentation</h2>
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Project Presentations A
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content">
+                        Project Presentation
+                        <ul class="mylist">
+                            <li><strong>12:30-12:42:</strong> <a href="#" target="_blank">"Bufferpool Implementation" by Jiayu Lu, Joel Franklin Stalin Vijaykumar</a></li>
+                            <li><strong>12:42-12:54:</strong> <a href="#" target="_blank">"Query-Driven Compaction in LSM-Trees" by Ye Tian, Peiyin Ye, Li Xi</a> </li>
+                            <li><strong>12:54-1:06:</strong> <a href="#" target="_blank">"Implementation of an LSM-Tree based Key-Value Store" by Zhenhuan Wu, Greeshma Yaluru</a></li>
+                            <li><strong>1:06-1:18:</strong> <a href="#" target="_blank">"Range Deletes in LSM-Trees" by Jingyi Li, Ming-Han Hsieh, Yu-Cheng Huang</a> </li>
+                            <li><strong>1:18-1:30:</strong> <a href="#" target="_blank">"Benchmark Compression with Near-Sortedness" by Shivangi, Vani Singhal</a> </li>
+                            <li><strong>1:30-1:42:</strong> <a href="#" target="_blank">"Query-Driven Compaction in LSM-Trees" by Karatsenidis Konstantinos, Shubham Kaushik, Nishil Agrawal</a> </li>
+                        </ul>
+                    </p>
+
+                    <h3 class="post-subtitle">
+                        <script type="text/javascript">
+                            document.write("<a id=\"class" + (cday + 1) + "\"></a>");
+                        </script>
+                        Class
+                        <script type="text/javascript">
+                            document.write(cday + 1)
+                        </script>: Project Presentationa B
+                    </h3>
+                    <p class="post-meta">
+                        <script type="text/javascript">
+                            document.write(classDay(rday + cday + cancelday));
+                            cday++;
+                        </script>
+                    </p>
+                    <p class="post-content">
+                        Project Presentation - II
+                        <ul class="mylist">
+                            <li><strong>12:30-12:42:</strong> <a href="#" target="_blank">"Range Deletes in LSM-Trees" by Wangyi Chen, Xiao Zhang, Xingjian Zhang</a> </li>
+                            <li><strong>12:42-12:54:</strong> <a href="#" target="_blank">"Exploring the Optimal Compaction Strategy for A Given Workload" by Chen Zhu, Ran Wei, Peixu Xin</a> </li>
+                            <li><strong>12:54-1:06:</strong> <a href="#" target="_blank">"Implementation of an LSM-Tree based Key-Value Store" by Ayesha Naeem, Sumatra Dhimoyee</a> </li>
+                            <li><strong>1:06-1:18:</strong> <a href="#" target="_blank">"Benchmark Compression With Near Sortedness" by Harshitha Tumkur Kailasa Murthy, Vishwas Bhaktavatsala</a> </li>
+                            <li><strong>1:18-1:30:</strong> <a href="#" target="_blank">"Evaluating Sorting Algorithms with Varying Data Sortedness" by Wei-Tse Kao, I-Ju Lin</a> </li>
+                            <li><strong>1:30-1:45:</strong> Closing Remarks </li>
+                        </ul>
+                    </p>
+
+                    <h3 class="post-subtitle">
+                        <a id="awards"></a>
+                        Project Awards (by popular vote)
+                    </h3>
+                    <p class="post-meta">
+                        As a tradition for the class, the projects that attracted the most excitement among the class members are receiving awards by popular vote!
+
+
+                    </p>
+                    <h4>Awards</h4>
+                    <ul class="mylist">
+
+                        <li><strong>Most Engaging Presentation:</strong> TBD </li>
+                        <li><strong>Project with Highest Technical Depth:</strong> TBD </li>
+                        <li><strong>Best Overall Project:</strong> TBD </li>
+                        <!-- <li><strong>Best Overall Project (honorable mention):</strong> xxx </li> -->
+                    </ul>
 
 
                     <br>
@@ -1134,7 +1261,7 @@ Filter Towards Efficient Read for LSM-tree based KV Stores</a>, HotStorage 2018<
 
 
 
-<!--
+    <!--
     <hr> -->
 
     <!-- Footer -->
@@ -1142,7 +1269,7 @@ Filter Towards Efficient Read for LSM-tree based KV Stores</a>, HotStorage 2018<
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                  <!--   <ul class="list-inline text-center">
+                    <!--   <ul class="list-inline text-center">
                         <li>
                             <a href="#">
                                 <span class="fa-stack fa-lg">
