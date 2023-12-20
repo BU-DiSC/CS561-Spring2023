@@ -1,2 +1,2 @@
 # CS561
-https://github.com/BU-DiSC/CS561-Spring2023
+https://bu-disc.github.io/CS561-Spring2023/
